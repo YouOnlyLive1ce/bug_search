@@ -1,0 +1,25 @@
+{
+    "Function": "withdraw",
+    "File": "src/CDPVault.sol",
+    "Parent Contracts": [
+        "src/interfaces/ICDPVault.sol",
+        "src/utils/Permission.sol",
+        "src/interfaces/IPermission.sol",
+        "src/utils/Pause.sol",
+        "src/interfaces/IPause.sol",
+        "lib/openzeppelin-contracts/contracts/security/Pausable.sol",
+        "lib/openzeppelin-contracts/contracts/access/AccessControl.sol",
+        "lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol",
+        "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
+        "lib/openzeppelin-contracts/contracts/access/IAccessControl.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "wdiv",
+        "modifyCollateralAndDebt",
+        "toInt256"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

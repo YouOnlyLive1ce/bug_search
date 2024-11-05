@@ -1,0 +1,9 @@
+{
+    "Function": "description",
+    "File": "src/vendor/AggregatorV3Interface.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

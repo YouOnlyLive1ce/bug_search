@@ -1,0 +1,21 @@
+{
+    "Function": "deposit",
+    "File": "src/Locking.sol",
+    "Parent Contracts": [
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "safeTransferFrom",
+            "SafeERC20"
+        ]
+    ],
+    "Internal Calls": [
+        "revert AmountIsZero()"
+    ],
+    "Library Calls": [
+        "safeTransferFrom.SafeERC20"
+    ],
+    "Low-Level Calls": []
+}

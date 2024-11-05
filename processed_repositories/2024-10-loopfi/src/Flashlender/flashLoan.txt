@@ -1,0 +1,40 @@
+{
+    "Function": "flashLoan",
+    "File": "src/Flashlender.sol",
+    "Parent Contracts": [
+        "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "transferFrom",
+            "IERC20"
+        ],
+        [
+            "lendCreditAccount",
+            "IPoolV3"
+        ],
+        [
+            "onFlashLoan",
+            "IERC3156FlashBorrower"
+        ],
+        [
+            "repayCreditAccount",
+            "IPoolV3"
+        ],
+        [
+            "mintProfit",
+            "IPoolV3"
+        ]
+    ],
+    "Internal Calls": [
+        "revert Flash__flashLoan_callbackFailed()",
+        "wmul",
+        "revert Flash__flashLoan_unsupportedToken()",
+        "nonReentrant"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

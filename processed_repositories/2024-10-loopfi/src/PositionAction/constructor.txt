@@ -1,0 +1,25 @@
+{
+    "Function": "constructor",
+    "File": "src/proxy/PositionAction.sol",
+    "Parent Contracts": [
+        "src/proxy/BaseAction.sol",
+        "src/proxy/TransferAction.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "pool",
+            "IFlashlender"
+        ],
+        [
+            "underlyingToken",
+            "IPoolV3"
+        ]
+    ],
+    "Internal Calls": [
+        "revert PositionAction__constructor_InvalidParam()"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

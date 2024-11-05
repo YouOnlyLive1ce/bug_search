@@ -1,0 +1,15 @@
+{
+    "Function": "_revertBytes",
+    "File": "src/proxy/SwapAction.sol",
+    "Parent Contracts": [
+        "src/proxy/TransferAction.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "revert(uint256,uint256)",
+        "revert SwapAction__revertBytes_emptyRevertBytes()",
+        "mload(uint256)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

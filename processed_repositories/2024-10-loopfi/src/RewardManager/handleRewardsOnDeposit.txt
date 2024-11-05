@@ -1,0 +1,16 @@
+{
+    "Function": "handleRewardsOnDeposit",
+    "File": "src/pendle-rewards/RewardManager.sol",
+    "Parent Contracts": [
+        "src/pendle-rewards/RewardManagerAbstract.sol",
+        "lib/pendle/contracts/core/libraries/TokenHelper.sol",
+        "lib/pendle/contracts/interfaces/IRewardManager.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "onlyVault",
+        "_updateAndDistributeRewards"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

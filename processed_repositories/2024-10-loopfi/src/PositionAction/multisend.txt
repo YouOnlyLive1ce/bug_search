@@ -1,0 +1,20 @@
+{
+    "Function": "multisend",
+    "File": "src/proxy/PositionAction.sol",
+    "Parent Contracts": [
+        "src/proxy/BaseAction.sol",
+        "src/proxy/TransferAction.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "onlyDelegatecall",
+        "_revertBytes",
+        "_delegateCall"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": [
+        "call.REF_906"
+    ]
+}

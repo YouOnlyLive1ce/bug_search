@@ -1,0 +1,11 @@
+{
+    "Function": "getFunctionSignature",
+    "File": "src/BytesHelper.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "require(bool,string)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

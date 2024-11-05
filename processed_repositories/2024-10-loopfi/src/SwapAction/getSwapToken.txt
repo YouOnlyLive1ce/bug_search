@@ -1,0 +1,15 @@
+{
+    "Function": "getSwapToken",
+    "File": "src/proxy/SwapAction.sol",
+    "Parent Contracts": [
+        "src/proxy/TransferAction.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "decodeLastToken",
+        "revert SwapAction__swap_notSupported()",
+        "abi.decode()"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

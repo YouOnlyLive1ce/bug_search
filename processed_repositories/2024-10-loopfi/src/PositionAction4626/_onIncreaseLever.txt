@@ -1,0 +1,45 @@
+{
+    "Function": "_onIncreaseLever",
+    "File": "src/proxy/PositionAction4626.sol",
+    "Parent Contracts": [
+        "src/proxy/PositionAction.sol",
+        "src/proxy/BaseAction.sol",
+        "src/proxy/TransferAction.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "asset",
+            "IERC4626"
+        ],
+        [
+            "forceApprove",
+            "SafeERC20"
+        ],
+        [
+            "deposit",
+            "IERC4626"
+        ],
+        [
+            "balanceOf",
+            "IERC20"
+        ],
+        [
+            "getSwapToken",
+            "SwapAction"
+        ],
+        [
+            "updateLeverJoin",
+            "PoolAction"
+        ]
+    ],
+    "Internal Calls": [
+        "_delegateCall",
+        "abi.encodeWithSelector()"
+    ],
+    "Library Calls": [
+        "forceApprove.SafeERC20"
+    ],
+    "Low-Level Calls": []
+}

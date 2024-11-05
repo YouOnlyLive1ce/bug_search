@@ -1,0 +1,21 @@
+{
+    "Function": "_updateAndDistributeRewards",
+    "File": "src/pendle-rewards/RewardManagerAbstract.sol",
+    "Parent Contracts": [
+        "lib/pendle/contracts/core/libraries/TokenHelper.sol",
+        "lib/pendle/contracts/interfaces/IRewardManager.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "toUint256",
+            "SafeCast"
+        ]
+    ],
+    "Internal Calls": [
+        "_updateAndDistributeRewardsForTwo"
+    ],
+    "Library Calls": [
+        "toUint256.SafeCast"
+    ],
+    "Low-Level Calls": []
+}

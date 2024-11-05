@@ -1,0 +1,9 @@
+{
+    "Function": "exactOutput",
+    "File": "src/vendor/IUniswapV3Router.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

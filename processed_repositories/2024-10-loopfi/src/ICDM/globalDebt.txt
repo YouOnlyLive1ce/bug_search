@@ -1,0 +1,11 @@
+{
+    "Function": "globalDebt",
+    "File": "src/interfaces/ICDM.sol",
+    "Parent Contracts": [
+        "src/interfaces/IPermission.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

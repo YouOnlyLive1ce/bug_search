@@ -1,0 +1,12 @@
+{
+    "Function": "constructor",
+    "File": "src/Locking.sol",
+    "Parent Contracts": [
+        "lib/openzeppelin-contracts/contracts/access/Ownable.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

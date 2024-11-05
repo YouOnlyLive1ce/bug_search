@@ -1,0 +1,17 @@
+{
+    "Function": "slitherConstructorConstantVariables",
+    "File": "src/utils/Pause.sol",
+    "Parent Contracts": [
+        "src/interfaces/IPause.sol",
+        "lib/openzeppelin-contracts/contracts/security/Pausable.sol",
+        "lib/openzeppelin-contracts/contracts/access/AccessControl.sol",
+        "lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol",
+        "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
+        "lib/openzeppelin-contracts/contracts/access/IAccessControl.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

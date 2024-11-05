@@ -1,0 +1,14 @@
+{
+    "Function": "installPlugin",
+    "File": "src/prb-proxy/PRBProxyRegistry.sol",
+    "Parent Contracts": [
+        "lib/prb-proxy/src/interfaces/IPRBProxyRegistry.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "_installPlugin",
+        "onlyCallerWithProxy"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

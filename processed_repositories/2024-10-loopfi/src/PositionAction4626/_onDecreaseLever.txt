@@ -1,0 +1,35 @@
+{
+    "Function": "_onDecreaseLever",
+    "File": "src/proxy/PositionAction4626.sol",
+    "Parent Contracts": [
+        "src/proxy/PositionAction.sol",
+        "src/proxy/BaseAction.sol",
+        "src/proxy/TransferAction.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "balanceOf",
+            "IERC20"
+        ],
+        [
+            "asset",
+            "IERC4626"
+        ],
+        [
+            "withdraw",
+            "ICDPVault"
+        ],
+        [
+            "redeem",
+            "IERC4626"
+        ]
+    ],
+    "Internal Calls": [
+        "_delegateCall",
+        "abi.encodeWithSelector()"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

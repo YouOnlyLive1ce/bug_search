@@ -1,0 +1,30 @@
+{
+    "Function": "_onDeposit",
+    "File": "src/proxy/PositionAction20.sol",
+    "Parent Contracts": [
+        "src/proxy/PositionAction.sol",
+        "src/proxy/BaseAction.sol",
+        "src/proxy/TransferAction.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "token",
+            "ICDPVault"
+        ],
+        [
+            "deposit",
+            "ICDPVault"
+        ],
+        [
+            "forceApprove",
+            "SafeERC20"
+        ]
+    ],
+    "Internal Calls": [],
+    "Library Calls": [
+        "forceApprove.SafeERC20"
+    ],
+    "Low-Level Calls": []
+}

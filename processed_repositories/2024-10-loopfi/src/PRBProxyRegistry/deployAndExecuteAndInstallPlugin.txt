@@ -1,0 +1,15 @@
+{
+    "Function": "deployAndExecuteAndInstallPlugin",
+    "File": "src/prb-proxy/PRBProxyRegistry.sol",
+    "Parent Contracts": [
+        "lib/prb-proxy/src/interfaces/IPRBProxyRegistry.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "onlyNonProxyOwner",
+        "_installPlugin",
+        "_deploy"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

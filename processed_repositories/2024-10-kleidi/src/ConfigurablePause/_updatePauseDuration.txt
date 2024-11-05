@@ -1,0 +1,12 @@
+{
+    "Function": "_updatePauseDuration",
+    "File": "src/ConfigurablePause.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "_setPauseTime",
+        "require(bool,string)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

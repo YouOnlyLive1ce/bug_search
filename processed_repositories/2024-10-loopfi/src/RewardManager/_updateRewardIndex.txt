@@ -1,0 +1,39 @@
+{
+    "Function": "_updateRewardIndex",
+    "File": "src/pendle-rewards/RewardManager.sol",
+    "Parent Contracts": [
+        "src/pendle-rewards/RewardManagerAbstract.sol",
+        "lib/pendle/contracts/core/libraries/TokenHelper.sol",
+        "lib/pendle/contracts/interfaces/IRewardManager.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "redeemRewards",
+            "IPendleMarketV3"
+        ],
+        [
+            "Uint128",
+            "PMath"
+        ],
+        [
+            "divDown",
+            "PMath"
+        ],
+        [
+            "balanceOf",
+            "IERC20"
+        ],
+        [
+            "getRewardTokens",
+            "IPendleMarketV3"
+        ]
+    ],
+    "Internal Calls": [
+        "_rewardSharesTotal"
+    ],
+    "Library Calls": [
+        "Uint128.PMath",
+        "divDown.PMath"
+    ],
+    "Low-Level Calls": []
+}

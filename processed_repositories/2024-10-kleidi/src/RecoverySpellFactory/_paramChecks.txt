@@ -1,0 +1,11 @@
+{
+    "Function": "_paramChecks",
+    "File": "src/RecoverySpellFactory.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "require(bool,string)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

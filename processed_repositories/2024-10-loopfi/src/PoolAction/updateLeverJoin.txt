@@ -1,0 +1,19 @@
+{
+    "Function": "updateLeverJoin",
+    "File": "src/proxy/PoolAction.sol",
+    "Parent Contracts": [
+        "src/proxy/TransferAction.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "getPool",
+            "IVault"
+        ]
+    ],
+    "Internal Calls": [
+        "abi.encode()",
+        "abi.decode()"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

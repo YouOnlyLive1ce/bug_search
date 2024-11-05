@@ -1,0 +1,11 @@
+{
+    "Function": "setPermissionAgent",
+    "File": "src/utils/Permission.sol",
+    "Parent Contracts": [
+        "src/interfaces/IPermission.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

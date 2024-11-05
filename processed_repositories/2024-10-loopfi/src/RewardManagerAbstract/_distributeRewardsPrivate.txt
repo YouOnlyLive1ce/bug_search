@@ -1,0 +1,26 @@
+{
+    "Function": "_distributeRewardsPrivate",
+    "File": "src/pendle-rewards/RewardManagerAbstract.sol",
+    "Parent Contracts": [
+        "lib/pendle/contracts/core/libraries/TokenHelper.sol",
+        "lib/pendle/contracts/interfaces/IRewardManager.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "mulDown",
+            "PMath"
+        ],
+        [
+            "Uint128",
+            "PMath"
+        ]
+    ],
+    "Internal Calls": [
+        "assert(bool)"
+    ],
+    "Library Calls": [
+        "mulDown.PMath",
+        "Uint128.PMath"
+    ],
+    "Low-Level Calls": []
+}

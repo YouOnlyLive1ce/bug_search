@@ -1,0 +1,9 @@
+{
+    "Function": "deploy",
+    "File": "src/interfaces/ICDPVault_Deployer.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

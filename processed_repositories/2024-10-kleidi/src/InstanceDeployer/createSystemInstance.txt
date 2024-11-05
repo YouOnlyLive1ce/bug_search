@@ -1,0 +1,59 @@
+{
+    "Function": "createSystemInstance",
+    "File": "src/InstanceDeployer.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [
+        [
+            "HOT_SIGNER_ROLE",
+            "Timelock"
+        ],
+        [
+            "hasRole",
+            "Timelock"
+        ],
+        [
+            "execTransaction",
+            "Safe"
+        ],
+        [
+            "proxyCreationCode",
+            "SafeProxyFactory"
+        ],
+        [
+            "isOwner",
+            "Safe"
+        ],
+        [
+            "createProxyWithNonce",
+            "SafeProxyFactory"
+        ],
+        [
+            "getOwners",
+            "Safe"
+        ],
+        [
+            "initialize",
+            "Timelock"
+        ],
+        [
+            "createTimelock",
+            "TimelockFactory"
+        ]
+    ],
+    "Internal Calls": [
+        "abi.encode()",
+        "abi.encodePacked()",
+        "mstore(uint256,uint256)",
+        "keccak256(bytes)",
+        "require(bool,string)",
+        "assert(bool)",
+        "abi.encodeWithSelector()",
+        "calculateCreate2Address",
+        "code(address)",
+        "mload(uint256)",
+        "mstore8(uint256,uint256)",
+        "abi.encodeWithSignature()"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

@@ -1,0 +1,14 @@
+{
+    "Function": "ensureNotInVaultContext",
+    "File": "src/vendor/VaultReentrancyLib.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "_require",
+        "abi.encodeWithSelector()"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": [
+        "staticcall.TMP_0"
+    ]
+}

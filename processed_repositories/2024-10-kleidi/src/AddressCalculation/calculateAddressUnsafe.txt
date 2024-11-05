@@ -1,0 +1,37 @@
+{
+    "Function": "calculateAddressUnsafe",
+    "File": "src/views/AddressCalculation.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [
+        [
+            "safeProxyLogic",
+            "InstanceDeployer"
+        ],
+        [
+            "safeProxyFactory",
+            "InstanceDeployer"
+        ],
+        [
+            "proxyCreationCode",
+            "SafeProxyFactory"
+        ],
+        [
+            "timelockCreationCode",
+            "TimelockFactory"
+        ],
+        [
+            "timelockFactory",
+            "InstanceDeployer"
+        ]
+    ],
+    "Internal Calls": [
+        "abi.encode()",
+        "abi.encodePacked()",
+        "keccak256(bytes)",
+        "calculateCreate2Address",
+        "abi.encodeWithSignature()",
+        "calculateCreate2Address"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

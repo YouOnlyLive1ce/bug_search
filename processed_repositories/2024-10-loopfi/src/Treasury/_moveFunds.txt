@@ -1,0 +1,27 @@
+{
+    "Function": "_moveFunds",
+    "File": "src/Treasury.sol",
+    "Parent Contracts": [
+        "lib/openzeppelin-contracts/contracts/finance/PaymentSplitter.sol",
+        "lib/openzeppelin-contracts/contracts/access/AccessControl.sol",
+        "lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol",
+        "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
+        "lib/openzeppelin-contracts/contracts/access/IAccessControl.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "safeTransfer",
+            "SafeERC20"
+        ],
+        [
+            "balanceOf",
+            "IERC20"
+        ]
+    ],
+    "Internal Calls": [],
+    "Library Calls": [
+        "safeTransfer.SafeERC20"
+    ],
+    "Low-Level Calls": []
+}

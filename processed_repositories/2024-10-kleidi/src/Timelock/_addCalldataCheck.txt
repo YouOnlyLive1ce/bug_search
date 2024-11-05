@@ -1,0 +1,35 @@
+{
+    "Function": "_addCalldataCheck",
+    "File": "src/Timelock.sol",
+    "Parent Contracts": [
+        "lib/openzeppelin-contracts/contracts/token/ERC721/IERC721Receiver.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC1155/IERC1155Receiver.sol",
+        "lib/openzeppelin-contracts/contracts/access/extensions/AccessControlEnumerable.sol",
+        "lib/openzeppelin-contracts/contracts/access/AccessControl.sol",
+        "lib/openzeppelin-contracts/contracts/utils/introspection/ERC165.sol",
+        "lib/openzeppelin-contracts/contracts/utils/introspection/IERC165.sol",
+        "lib/openzeppelin-contracts/contracts/access/extensions/IAccessControlEnumerable.sol",
+        "lib/openzeppelin-contracts/contracts/access/IAccessControl.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "src/ConfigurablePause.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "values",
+            "EnumerableSet"
+        ],
+        [
+            "add",
+            "EnumerableSet"
+        ]
+    ],
+    "Internal Calls": [
+        "keccak256(bytes)",
+        "require(bool,string)"
+    ],
+    "Library Calls": [
+        "values.EnumerableSet",
+        "add.EnumerableSet"
+    ],
+    "Low-Level Calls": []
+}

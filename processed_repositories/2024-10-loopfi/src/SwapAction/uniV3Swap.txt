@@ -1,0 +1,26 @@
+{
+    "Function": "uniV3Swap",
+    "File": "src/proxy/SwapAction.sol",
+    "Parent Contracts": [
+        "src/proxy/TransferAction.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "exactOutput",
+            "IUniswapV3Router"
+        ],
+        [
+            "exactInput",
+            "IUniswapV3Router"
+        ],
+        [
+            "forceApprove",
+            "SafeERC20"
+        ]
+    ],
+    "Internal Calls": [],
+    "Library Calls": [
+        "forceApprove.SafeERC20"
+    ],
+    "Low-Level Calls": []
+}

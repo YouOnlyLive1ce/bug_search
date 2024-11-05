@@ -1,0 +1,14 @@
+{
+    "Function": "slitherConstructorConstantVariables",
+    "File": "src/RecoverySpell.sol",
+    "Parent Contracts": [
+        "lib/openzeppelin-contracts/contracts/utils/cryptography/EIP712.sol",
+        "lib/openzeppelin-contracts/contracts/interfaces/IERC5267.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "keccak256(bytes)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

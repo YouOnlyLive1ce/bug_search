@@ -1,0 +1,16 @@
+{
+    "Function": "slitherConstructorConstantVariables",
+    "File": "src/Flashlender.sol",
+    "Parent Contracts": [
+        "lib/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "keccak256(bytes)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

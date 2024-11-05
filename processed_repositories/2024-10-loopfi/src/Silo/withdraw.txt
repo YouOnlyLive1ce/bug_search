@@ -1,0 +1,18 @@
+{
+    "Function": "withdraw",
+    "File": "src/Silo.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [
+        [
+            "safeTransfer",
+            "SafeERC20"
+        ]
+    ],
+    "Internal Calls": [
+        "onlyStakingVault"
+    ],
+    "Library Calls": [
+        "safeTransfer.SafeERC20"
+    ],
+    "Low-Level Calls": []
+}

@@ -1,0 +1,25 @@
+{
+    "Function": "_balancerJoin",
+    "File": "src/proxy/PoolAction.sol",
+    "Parent Contracts": [
+        "src/proxy/TransferAction.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "forceApprove",
+            "SafeERC20"
+        ],
+        [
+            "joinPool",
+            "IVault"
+        ]
+    ],
+    "Internal Calls": [
+        "abi.encode()",
+        "abi.decode()"
+    ],
+    "Library Calls": [
+        "forceApprove.SafeERC20"
+    ],
+    "Low-Level Calls": []
+}

@@ -1,0 +1,12 @@
+{
+    "Function": "getFirstWord",
+    "File": "src/BytesHelper.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "mload(uint256)",
+        "require(bool,string)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

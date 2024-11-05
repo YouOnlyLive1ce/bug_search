@@ -1,0 +1,31 @@
+{
+    "Function": "decimals",
+    "File": "src/PoolV3.sol",
+    "Parent Contracts": [
+        "src/interfaces/IPoolV3.sol",
+        "lib/core-v3/contracts/traits/ContractsRegisterTrait.sol",
+        "lib/core-v3/contracts/traits/ACLNonReentrantTrait.sol",
+        "lib/core-v3/contracts/traits/ReentrancyGuardTrait.sol",
+        "lib/openzeppelin-contracts/contracts/security/Pausable.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC20Permit.sol",
+        "lib/openzeppelin-contracts/contracts/utils/cryptography/EIP712.sol",
+        "lib/openzeppelin-contracts/contracts/interfaces/IERC5267.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Permit.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/ERC4626.sol",
+        "lib/openzeppelin-contracts/contracts/interfaces/IERC4626.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "src/interfaces/IPoolV3.sol",
+        "lib/core-v2/contracts/interfaces/IVersion.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "lib/core-v3/contracts/traits/ACLTrait.sol",
+        "lib/core-v3/contracts/traits/SanityCheckTrait.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "decimals"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

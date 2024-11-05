@@ -1,0 +1,28 @@
+{
+    "Function": "_onWithdraw",
+    "File": "src/proxy/PositionAction4626.sol",
+    "Parent Contracts": [
+        "src/proxy/PositionAction.sol",
+        "src/proxy/BaseAction.sol",
+        "src/proxy/TransferAction.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "token",
+            "ICDPVault"
+        ],
+        [
+            "withdraw",
+            "ICDPVault"
+        ],
+        [
+            "redeem",
+            "IERC4626"
+        ]
+    ],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

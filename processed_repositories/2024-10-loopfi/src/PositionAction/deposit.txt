@@ -1,0 +1,18 @@
+{
+    "Function": "deposit",
+    "File": "src/proxy/PositionAction.sol",
+    "Parent Contracts": [
+        "src/proxy/BaseAction.sol",
+        "src/proxy/TransferAction.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "onlyDelegatecall",
+        "_deposit",
+        "onlyRegisteredVault"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

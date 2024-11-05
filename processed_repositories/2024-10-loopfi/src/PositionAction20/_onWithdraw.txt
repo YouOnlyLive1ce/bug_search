@@ -1,0 +1,20 @@
+{
+    "Function": "_onWithdraw",
+    "File": "src/proxy/PositionAction20.sol",
+    "Parent Contracts": [
+        "src/proxy/PositionAction.sol",
+        "src/proxy/BaseAction.sol",
+        "src/proxy/TransferAction.sol",
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "withdraw",
+            "ICDPVault"
+        ]
+    ],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

@@ -1,0 +1,3 @@
+./repositories/*
+./processed_repositories/*
+./__pycache__/*

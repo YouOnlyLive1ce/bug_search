@@ -1,0 +1,9 @@
+{
+    "Function": "slitherConstructorConstantVariables",
+    "File": "src/proxy/TransferAction.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

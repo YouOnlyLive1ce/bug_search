@@ -1,0 +1,15 @@
+{
+    "Function": "exit",
+    "File": "src/proxy/PoolAction.sol",
+    "Parent Contracts": [
+        "src/proxy/TransferAction.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "_balancerExit",
+        "revert PoolAction__exit_unsupportedProtocol()",
+        "_pendleExit"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

@@ -1,0 +1,13 @@
+{
+    "Function": "calculateAddress",
+    "File": "src/views/AddressCalculation.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "code(address)",
+        "calculateAddressUnsafe",
+        "require(bool,string)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

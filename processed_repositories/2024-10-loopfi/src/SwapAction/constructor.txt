@@ -1,0 +1,11 @@
+{
+    "Function": "constructor",
+    "File": "src/proxy/SwapAction.sol",
+    "Parent Contracts": [
+        "src/proxy/TransferAction.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

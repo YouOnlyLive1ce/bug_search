@@ -1,0 +1,13 @@
+{
+    "Function": "_revertBytes",
+    "File": "src/proxy/BaseAction.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "revert(uint256,uint256)",
+        "revert Action__revertBytes_emptyRevertBytes()",
+        "mload(uint256)"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

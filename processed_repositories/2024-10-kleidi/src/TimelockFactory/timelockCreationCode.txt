@@ -1,0 +1,11 @@
+{
+    "Function": "timelockCreationCode",
+    "File": "src/TimelockFactory.sol",
+    "Parent Contracts": [],
+    "High-Level Calls": [],
+    "Internal Calls": [
+        "type()"
+    ],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

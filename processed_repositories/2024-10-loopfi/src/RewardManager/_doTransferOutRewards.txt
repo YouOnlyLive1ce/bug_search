@@ -1,0 +1,32 @@
+{
+    "Function": "_doTransferOutRewards",
+    "File": "src/pendle-rewards/RewardManager.sol",
+    "Parent Contracts": [
+        "src/pendle-rewards/RewardManagerAbstract.sol",
+        "lib/pendle/contracts/core/libraries/TokenHelper.sol",
+        "lib/pendle/contracts/interfaces/IRewardManager.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "Uint128",
+            "PMath"
+        ],
+        [
+            "owner",
+            "IPRBProxy"
+        ],
+        [
+            "isProxy",
+            "IPRBProxyRegistry"
+        ],
+        [
+            "getRewardTokens",
+            "IPendleMarketV3"
+        ]
+    ],
+    "Internal Calls": [],
+    "Library Calls": [
+        "Uint128.PMath"
+    ],
+    "Low-Level Calls": []
+}

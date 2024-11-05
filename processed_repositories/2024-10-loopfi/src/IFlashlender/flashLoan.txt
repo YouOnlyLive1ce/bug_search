@@ -1,0 +1,12 @@
+{
+    "Function": "flashLoan",
+    "File": "src/interfaces/IFlashlender.sol",
+    "Parent Contracts": [
+        "src/interfaces/IFlashlender.sol",
+        "src/interfaces/IFlashlender.sol"
+    ],
+    "High-Level Calls": [],
+    "Internal Calls": [],
+    "Library Calls": [],
+    "Low-Level Calls": []
+}

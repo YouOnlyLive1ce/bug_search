@@ -1,0 +1,27 @@
+{
+    "Function": "swap",
+    "File": "src/proxy/SwapAction.sol",
+    "Parent Contracts": [
+        "src/proxy/TransferAction.sol"
+    ],
+    "High-Level Calls": [
+        [
+            "safeTransfer",
+            "SafeERC20"
+        ]
+    ],
+    "Internal Calls": [
+        "kyberSwap",
+        "uniV3Swap",
+        "revert SwapAction__swap_notSupported()",
+        "balancerSwap",
+        "pendleJoin",
+        "_revertBytes",
+        "pendleExit",
+        "abi.decode()"
+    ],
+    "Library Calls": [
+        "safeTransfer.SafeERC20"
+    ],
+    "Low-Level Calls": []
+}
