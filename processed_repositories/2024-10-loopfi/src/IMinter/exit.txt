@@ -1,9 +1,0 @@
-{
-    "Function": "exit",
-    "File": "src/interfaces/IMinter.sol",
-    "Parent Contracts": [],
-    "High-Level Calls": [],
-    "Internal Calls": [],
-    "Library Calls": [],
-    "Low-Level Calls": []
-}

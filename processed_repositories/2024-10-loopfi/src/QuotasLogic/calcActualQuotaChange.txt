@@ -1,9 +1,0 @@
-{
-    "Function": "calcActualQuotaChange",
-    "File": "src/quotas/QuotasLogic.sol",
-    "Parent Contracts": [],
-    "High-Level Calls": [],
-    "Internal Calls": [],
-    "Library Calls": [],
-    "Low-Level Calls": []
-}

@@ -1,9 +1,0 @@
-{
-    "Function": "cdm",
-    "File": "src/interfaces/IBuffer.sol",
-    "Parent Contracts": [],
-    "High-Level Calls": [],
-    "Internal Calls": [],
-    "Library Calls": [],
-    "Low-Level Calls": []
-}

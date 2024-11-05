@@ -1,9 +1,0 @@
-{
-    "Function": "get_virtual_price",
-    "File": "src/vendor/ICurvePool.sol",
-    "Parent Contracts": [],
-    "High-Level Calls": [],
-    "Internal Calls": [],
-    "Library Calls": [],
-    "Low-Level Calls": []
-}

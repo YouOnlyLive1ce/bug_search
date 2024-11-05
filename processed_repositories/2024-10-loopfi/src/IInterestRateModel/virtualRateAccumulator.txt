@@ -1,9 +1,0 @@
-{
-    "Function": "virtualRateAccumulator",
-    "File": "src/interfaces/IInterestRateModel.sol",
-    "Parent Contracts": [],
-    "High-Level Calls": [],
-    "Internal Calls": [],
-    "Library Calls": [],
-    "Low-Level Calls": []
-}

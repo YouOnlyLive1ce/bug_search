@@ -1,9 +1,0 @@
-{
-    "Function": "getMethodsByProxy",
-    "File": "src/prb-proxy/interfaces/IPRBProxyRegistry.sol",
-    "Parent Contracts": [],
-    "High-Level Calls": [],
-    "Internal Calls": [],
-    "Library Calls": [],
-    "Low-Level Calls": []
-}

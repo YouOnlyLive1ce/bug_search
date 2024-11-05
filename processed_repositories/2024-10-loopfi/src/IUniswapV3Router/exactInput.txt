@@ -1,9 +1,0 @@
-{
-    "Function": "exactInput",
-    "File": "src/vendor/IUniswapV3Router.sol",
-    "Parent Contracts": [],
-    "High-Level Calls": [],
-    "Internal Calls": [],
-    "Library Calls": [],
-    "Low-Level Calls": []
-}
