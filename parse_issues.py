@@ -7,8 +7,6 @@ import re
 import os
 # from reports_links,parse github link and download github repositories
 
-# from downloaded repositories, train embeddings with graphcodebert (colab/kaggle/innodatahub)
-# create graph knowledge representation in order to capture context and workflow of program
 driver = webdriver.Chrome()
 with open('./project/reports_links.txt') as f:
     reports_links = f.readlines()

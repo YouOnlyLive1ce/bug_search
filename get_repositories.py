@@ -6,11 +6,11 @@ from bs4 import BeautifulSoup
 import time
 import requests
 
-with open('./project/audits_links.txt') as f:
+with open('./audits_links.txt') as f:
     audits_links = f.readlines()
 
 repo_links=[]
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 for audit_url in audits_links:
     driver.get(audit_url)
     time.sleep(3)
