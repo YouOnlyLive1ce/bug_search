@@ -1,0 +1,2354 @@
+[
+  {
+    "audit_link": "https://code4rena.com/audits/2025-05-upside",
+    "report_link": "https://code4rena.com/reports/2025-05-upside",
+    "repo_link": "https://github.com/code-423n4/2025-05-upside",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-05-silo-finance-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/silo-finance/silo-contracts-v2",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-04-cabal-liquid-staking-token",
+    "report_link": "https://code4rena.com/reports/2025-04-cabal-liquid-staking-token",
+    "repo_link": "https://github.com/code-423n4/2025-04-cabal",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-04-bitvault",
+    "report_link": "https://code4rena.com/reports/2025-04-bitvault",
+    "repo_link": "https://github.com/code-423n4/2025-04-bitvault",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-04-forte-float128-solidity-library",
+    "report_link": "https://code4rena.com/reports/2025-04-forte-float128-solidity-library",
+    "repo_link": "https://github.com/code-423n4/2025-04-forte",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-03-silo-finance",
+    "report_link": "https://code4rena.com/reports/2025-03-silo-finance",
+    "repo_link": "https://github.com/code-423n4/2025-03-silo-finance",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-03-thorwallet-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/THORWallet/TGT-TITN-merge-contracts/tree/audit-1",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-03-nudgexyz",
+    "report_link": "https://code4rena.com/reports/2025-03-nudgexyz",
+    "repo_link": "https://github.com/code-423n4/2025-03-nudgexyz",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-03-initia-cosmos-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/initia-labs/minievm/pull/170/files",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-02-liquid-ron-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/OwlOfMoistness/liquid_ron/commit/de29bfdcd284df362dcdc217833fac168ac4c9b1",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-02-thorwallet",
+    "report_link": "https://code4rena.com/reports/2025-02-thorwallet",
+    "repo_link": "https://github.com/code-423n4/2025-02-thorwallet",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-02-initia-cosmos",
+    "report_link": "https://code4rena.com/reports/2025-02-initia-cosmos",
+    "repo_link": "https://github.com/code-423n4/2025-02-initia-cosmos",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-01-next-generation",
+    "report_link": "https://code4rena.com/reports/2025-01-next-generation",
+    "repo_link": "https://github.com/code-423n4/2025-01-next-generation",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-01-iq-ai",
+    "report_link": "https://code4rena.com/reports/2025-01-iq-ai",
+    "repo_link": "https://github.com/code-423n4/2025-01-iq-ai",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-01-bakerfi-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/baker-fi/bakerfi-contracts/tree/develop",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-01-liquid-ron",
+    "report_link": "https://code4rena.com/reports/2025-01-liquid-ron",
+    "repo_link": "https://github.com/code-423n4/2025-01-liquid-ron",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-01-pump-science",
+    "report_link": "https://code4rena.com/reports/2025-01-pump-science",
+    "repo_link": "https://github.com/code-423n4/2025-01-pump-science",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-01-initia-move",
+    "report_link": "https://code4rena.com/reports/2025-01-initia-move",
+    "repo_link": "https://github.com/code-423n4/2025-01-initia-move",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2025-01-initia-rollup-modules",
+    "report_link": "https://code4rena.com/reports/2025-01-initia-rollup-modules",
+    "repo_link": "https://github.com/code-423n4/2025-01-initia-modules",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-12-benddao-invitational",
+    "report_link": "https://code4rena.com/reports/2024-12-benddao-invitational",
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-12-flex-perpetuals",
+    "report_link": "https://code4rena.com/reports/2024-12-flex-perpetuals",
+    "repo_link": "https://github.com/code-423n4/2024-12-flex-perpetuals",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-12-bakerfi-invitational",
+    "report_link": "https://code4rena.com/reports/2024-12-bakerfi-invitational",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-12-secondswap",
+    "report_link": "https://code4rena.com/reports/2024-12-secondswap",
+    "repo_link": "https://github.com/code-423n4/2024-12-secondswap",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-12-chainlink-payment-abstraction",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-12-chainlink",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-12-unruggable-invitational",
+    "report_link": "https://code4rena.com/reports/2024-12-unruggable-invitational",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-12-lambowin",
+    "report_link": "https://code4rena.com/reports/2024-12-lambowin",
+    "repo_link": "https://github.com/code-423n4/2024-12-lambowin",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-11-mantra-dex",
+    "report_link": "https://code4rena.com/reports/2024-11-mantra-dex",
+    "repo_link": "https://github.com/code-423n4/2024-11-mantra-dex",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-11-mantra-chain",
+    "report_link": "https://code4rena.com/reports/2024-11-mantra-chain",
+    "repo_link": "https://github.com/code-423n4/2024-11-mantra",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-11-nibiru",
+    "report_link": "https://code4rena.com/reports/2024-11-nibiru",
+    "repo_link": "https://github.com/code-423n4/2024-11-nibiru",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-11-ethena-labs-invitational",
+    "report_link": "https://code4rena.com/reports/2024-11-ethena-labs",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-11-chainlink",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-11-chainlink",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-10-audit-459-invitational",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-10-superposition",
+    "report_link": "https://code4rena.com/reports/2024-10-superposition",
+    "repo_link": "https://github.com/code-423n4/2024-10-superposition",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-10-ronin",
+    "report_link": "https://code4rena.com/reports/2024-10-ronin",
+    "repo_link": "https://github.com/code-423n4/2024-10-ronin",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-10-kleidi",
+    "report_link": "https://code4rena.com/reports/2024-10-kleidi",
+    "repo_link": "https://github.com/code-423n4/2024-10-kleidi",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-10-loopfi",
+    "report_link": "https://code4rena.com/reports/2024-10-loopfi",
+    "repo_link": "https://github.com/code-423n4/2024-10-loopfi",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-10-ramses-exchange",
+    "report_link": "https://code4rena.com/reports/2024-10-ramses-exchange",
+    "repo_link": "https://github.com/code-423n4/2024-10-ramses-exchange",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-10-coded-estate-invitational",
+    "report_link": "https://code4rena.com/reports/2024-10-coded-estate",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-10-ulti-invitational",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-09-kakarot",
+    "report_link": "https://code4rena.com/reports/2024-09-kakarot",
+    "repo_link": "https://github.com/code-423n4/2024-09-kakarot",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-09-panoptic-invitational",
+    "report_link": "https://code4rena.com/reports/2024-09-panoptic",
+    "repo_link": "https://github.com/code-423n4/2024-09-panoptic/commit/cdadf6972277cb1d26115b1dcac95850493bfa97",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-09-fenix-finance-invitational",
+    "report_link": "https://code4rena.com/reports/2024-09-fenix-finance",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-09-reserve-core-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-07-reserve-findings/issues/53",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-09-karak-restaking-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-07-karak-findings/issues/102",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-08-the-wildcat-protocol",
+    "report_link": "https://code4rena.com/reports/2024-08-wildcat",
+    "repo_link": "https://github.com/code-423n4/2024-08-wildcat",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-08-chakra",
+    "report_link": "https://code4rena.com/reports/2024-08-chakra",
+    "repo_link": "https://github.com/code-423n4/2024-08-chakra",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-08-doubler-mitigation-review",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-08-basin-invitational",
+    "report_link": "https://code4rena.com/reports/2024-08-basin",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-08-superposition",
+    "report_link": "https://code4rena.com/reports/2024-08-superposition",
+    "repo_link": "https://github.com/code-423n4/2024-08-superposition",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-08-phi",
+    "report_link": "https://code4rena.com/reports/2024-08-phi",
+    "repo_link": "https://github.com/code-423n4/2024-08-phi",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-08-axelar-network",
+    "report_link": "https://code4rena.com/reports/2024-08-axelar-network",
+    "repo_link": "https://github.com/code-423n4/2024-08-axelar-network",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-traitforge",
+    "report_link": "https://code4rena.com/reports/2024-07-traitforge",
+    "repo_link": "https://github.com/code-423n4/2024-07-traitforge",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-basin",
+    "report_link": "https://code4rena.com/reports/2024-07-basin",
+    "repo_link": "https://github.com/code-423n4/2024-07-basin",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-reserve-core",
+    "report_link": "https://code4rena.com/reports/2024-07-reserve",
+    "repo_link": "https://github.com/code-423n4/2024-07-reserve",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-loopfi",
+    "report_link": "https://code4rena.com/reports/2024-07-loopfi",
+    "repo_link": "https://github.com/code-423n4/2024-07-loopfi",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-munchables",
+    "report_link": "https://code4rena.com/reports/2024-07-munchables",
+    "repo_link": "https://github.com/code-423n4/2024-07-munchables",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-benddao-invitational",
+    "report_link": "https://code4rena.com/reports/2024-07-benddao",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-karak-restaking",
+    "report_link": "https://code4rena.com/reports/2024-07-karak",
+    "repo_link": "https://github.com/code-423n4/2024-07-karak",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-optimism-superchain",
+    "report_link": "https://code4rena.com/reports/2024-07-optimism",
+    "repo_link": "https://github.com/code-423n4/2024-07-optimism",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-dittoeth-invitational",
+    "report_link": "https://code4rena.com/reports/2024-07-dittoeth",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-07-audit-402-invitational",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-06-ebtc-zap-router",
+    "report_link": "https://code4rena.com/reports/2024-06-badger",
+    "repo_link": "https://github.com/code-423n4/2024-06-badger",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-06-krystal-defi-invitational",
+    "report_link": "https://code4rena.com/reports/2024-06-krystal-defi",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-06-gondi-invitational",
+    "report_link": "https://code4rena.com/reports/2024-06-gondi",
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-06-vultisig",
+    "report_link": "https://code4rena.com/reports/2024-06-vultisig",
+    "repo_link": "https://github.com/code-423n4/2024-06-vultisig",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-06-size",
+    "report_link": "https://code4rena.com/reports/2024-06-size",
+    "repo_link": "https://github.com/code-423n4/2024-06-size",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-06-thorchain",
+    "report_link": "https://code4rena.com/reports/2024-06-thorchain",
+    "repo_link": "https://github.com/code-423n4/2024-06-thorchain",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-06-panoptic",
+    "report_link": "https://code4rena.com/reports/2024-06-panoptic",
+    "repo_link": "https://github.com/code-423n4/2024-06-panoptic",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-06-renzo-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-04-renzo-findings/issues/612",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-canto",
+    "report_link": "https://code4rena.com/reports/2024-05-canto",
+    "repo_link": "https://github.com/code-423n4/2024-05-canto",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-olas",
+    "report_link": "https://code4rena.com/reports/2024-05-olas",
+    "repo_link": "https://github.com/code-423n4/2024-05-olas",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-predy",
+    "report_link": "https://code4rena.com/reports/2024-05-predy",
+    "repo_link": "https://github.com/code-423n4/2024-05-predy",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-audit-384-invitational",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-munchables",
+    "report_link": "https://code4rena.com/reports/2024-05-munchables",
+    "repo_link": "https://github.com/code-423n4/2024-05-munchables",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-bakerfi-invitational",
+    "report_link": "https://code4rena.com/reports/2024-05-bakerfi",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-gondi-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-04-gondi-findings/issues/69",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-arbitrum-bold",
+    "report_link": "https://code4rena.com/reports/2024-05-arbitrum-foundation",
+    "repo_link": "https://github.com/code-423n4/2024-05-arbitrum-foundation",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-hodl-invitational",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-05-loopfi",
+    "report_link": "https://code4rena.com/reports/2024-05-loop",
+    "repo_link": "https://github.com/code-423n4/2024-05-loop",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-renzo",
+    "report_link": "https://code4rena.com/reports/2024-04-renzo",
+    "repo_link": "https://github.com/code-423n4/2024-04-renzo",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-noya",
+    "report_link": "https://code4rena.com/reports/2024-04-noya",
+    "repo_link": "https://github.com/code-423n4/2024-04-noya",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-revert-lend-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-03-revert-lend-findings/issues/368",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-dyad",
+    "report_link": "https://code4rena.com/reports/2024-04-dyad",
+    "repo_link": "https://github.com/code-423n4/2024-04-dyad",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-lavarage-invitational",
+    "report_link": "https://code4rena.com/reports/2024-04-lavarage",
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-gondi-invitational",
+    "report_link": "https://code4rena.com/reports/2024-04-gondi",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-ai-arena-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-02-ai-arena-findings/issues/1709",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-coinbase-smart-wallet-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-03-coinbase-findings/issues/114",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-04-panoptic",
+    "report_link": "https://code4rena.com/reports/2024-04-panoptic",
+    "repo_link": "https://github.com/code-423n4/2024-04-panoptic",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-canto-invitational",
+    "report_link": "https://code4rena.com/reports/2024-03-canto",
+    "repo_link": "https://github.com/code-423n4/2023-11-canto",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-neobase-invitational",
+    "report_link": "https://code4rena.com/reports/2024-03-neobase",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-ondo-finance",
+    "report_link": "https://code4rena.com/reports/2024-03-ondo-finance",
+    "repo_link": "https://github.com/code-423n4/2024-03-ondo-finance",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-doubler-invitational",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-identity-staking-invitational-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-03-gitcoin-findings/issues/9",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-acala",
+    "report_link": "https://code4rena.com/reports/2024-03-acala",
+    "repo_link": "https://github.com/code-423n4/2024-03-acala",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-dittoeth",
+    "report_link": "https://code4rena.com/reports/2024-03-dittoeth",
+    "repo_link": "https://github.com/code-423n4/2024-03-dittoeth",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-smart-wallet",
+    "report_link": "https://code4rena.com/reports/2024-03-coinbase",
+    "repo_link": "https://github.com/code-423n4/2024-03-coinbase",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-zksync-era",
+    "report_link": "https://code4rena.com/reports/2024-03-zksync",
+    "repo_link": "https://github.com/code-423n4/2024-03-zksync",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-abracadabra-mimswap",
+    "report_link": "https://code4rena.com/reports/2024-03-abracadabra-money",
+    "repo_link": "https://github.com/code-423n4/2024-03-abracadabra-money",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-gitcoin-passport-identity-staking-invitational",
+    "report_link": "https://code4rena.com/reports/2024-03-gitcoin",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-taiko",
+    "report_link": "https://code4rena.com/reports/2024-03-taiko",
+    "repo_link": "https://github.com/code-423n4/2024-03-taiko",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-revert-lend",
+    "report_link": "https://code4rena.com/reports/2024-03-revert-lend",
+    "repo_link": "https://github.com/code-423n4/2024-03-revert-lend",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-pooltogether",
+    "report_link": "https://code4rena.com/reports/2024-03-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2024-03-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-phat-contract-runtime",
+    "report_link": "https://code4rena.com/reports/2024-03-phala-network",
+    "repo_link": "https://github.com/code-423n4/2024-03-phala-network",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-plutocats-invitational",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-03-saltyio-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-01-salty-findings/issues/712",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-renft-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2024-02-renft-mitigation",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-tapioca-invitational",
+    "report_link": "https://code4rena.com/reports/2024-02-tapioca",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-spectra",
+    "report_link": "https://code4rena.com/reports/2024-02-spectra",
+    "repo_link": "https://github.com/code-423n4/2024-02-spectra",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-unistaker-infrastructure",
+    "report_link": "https://code4rena.com/reports/2024-02-uniswap-foundation",
+    "repo_link": "https://github.com/code-423n4/2024-02-uniswap-foundation",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-wise-lending",
+    "report_link": "https://code4rena.com/reports/2024-02-wise-lending",
+    "repo_link": "https://github.com/code-423n4/2024-02-wise-lending",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-thruster-invitational",
+    "report_link": "https://code4rena.com/reports/2024-02-thruster",
+    "repo_link": "https://github.com/code-423n4/code423n4.com/blob/main/_data/pages/certified-contributor-terms-and-conditions.md",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-althea-liquid-infrastructure",
+    "report_link": "https://code4rena.com/reports/2024-02-althea-liquid-infrastructure",
+    "repo_link": "https://github.com/code-423n4/2024-02-althea-liquid-infrastructure",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-ai-arena",
+    "report_link": "https://code4rena.com/reports/2024-02-ai-arena",
+    "repo_link": "https://github.com/code-423n4/2024-02-ai-arena",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-02-hydradx",
+    "report_link": "https://code4rena.com/reports/2024-02-hydradx",
+    "repo_link": "https://github.com/code-423n4/2024-02-hydradx",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-01-init-capital-invitational",
+    "report_link": "https://code4rena.com/reports/2024-01-init-capital-invitational",
+    "repo_link": "https://github.com/init-capital/init-core-public/tree/master/audits",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-01-canto-invitational",
+    "report_link": "https://code4rena.com/reports/2024-01-canto",
+    "repo_link": "https://github.com/code-423n4/2024-01-canto/blob/main/scope.txt",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-01-decent",
+    "report_link": "https://code4rena.com/reports/2024-01-decent",
+    "repo_link": "https://github.com/code-423n4/2024-01-decent",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-01-nftperp-invitational",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-01-saltyio",
+    "report_link": "https://code4rena.com/reports/2024-01-salty",
+    "repo_link": "https://github.com/code-423n4/2024-01-salty",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-01-opus",
+    "report_link": "https://code4rena.com/reports/2024-01-opus",
+    "repo_link": "https://github.com/code-423n4/2024-01-opus",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-01-curves",
+    "report_link": "https://code4rena.com/reports/2024-01-curves",
+    "repo_link": "https://github.com/code-423n4/2024-01-curves",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2024-01-renft",
+    "report_link": "https://code4rena.com/reports/2024-01-renft",
+    "repo_link": "https://github.com/code-423n4/2024-01-renft",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-12-olas",
+    "report_link": "https://code4rena.com/reports/2023-12-autonolas",
+    "repo_link": "https://github.com/code-423n4/2023-12-autonolas",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-12-init-capital-invitational",
+    "report_link": "https://code4rena.com/reports/2023-12-initcapital",
+    "repo_link": "https://github.com/code-423n4/2023-12-initcapital/tree/main/audits",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-12-revolution-protocol",
+    "report_link": "https://code4rena.com/reports/2023-12-revolutionprotocol",
+    "repo_link": "https://github.com/code-423n4/2023-12-revolutionprotocol",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-12-ethereum-credit-guild",
+    "report_link": "https://code4rena.com/reports/2023-12-ethereumcreditguild",
+    "repo_link": "https://github.com/code-423n4/2023-12-ethereumcreditguild",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-12-particle-leverage-amm-protocol-invitational",
+    "report_link": "https://code4rena.com/reports/2023-12-particle",
+    "repo_link": "https://github.com/code-423n4/2023-12-particle/blob/main/slither",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-11-shell-protocol",
+    "report_link": "https://code4rena.com/reports/2023-11-shellprotocol",
+    "repo_link": "https://github.com/code-423n4/2023-11-shellprotocol",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-11-panoptic",
+    "report_link": "https://code4rena.com/reports/2023-11-panoptic",
+    "repo_link": "https://github.com/code-423n4/2023-11-panoptic",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-11-zetachain",
+    "report_link": "https://code4rena.com/reports/2023-11-zetachain",
+    "repo_link": "https://github.com/code-423n4/2023-11-zetachain",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-11-canto-application-specific-dollars-and-bonding-curves-for-1155s",
+    "report_link": "https://code4rena.com/reports/2023-11-canto",
+    "repo_link": "https://github.com/code-423n4/2023-11-canto",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-11-kelp-dao-rseth",
+    "report_link": "https://code4rena.com/reports/2023-11-kelp",
+    "repo_link": "https://github.com/code-423n4/2023-11-kelp",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-11-beta-finance-invitational",
+    "report_link": "https://code4rena.com/reports/2023-11-betafinance",
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-party-protocol",
+    "report_link": "https://code4rena.com/reports/2023-10-party",
+    "repo_link": "https://github.com/code-423n4/2023-10-party",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-nextgen",
+    "report_link": "https://code4rena.com/reports/2023-10-nextgen",
+    "repo_link": "https://github.com/code-423n4/2023-10-nextgen",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-ethena-labs",
+    "report_link": "https://code4rena.com/reports/2023-10-ethena",
+    "repo_link": "https://github.com/code-423n4/2023-10-ethena",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-badger-ebtc-audit-certora-formal-verification-competition",
+    "report_link": "https://code4rena.com/reports/2023-10-badger",
+    "repo_link": "https://github.com/code-423n4/2023-10-badger",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-asymmetry-finance-afeth-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-09-asymmetry-findings/issues/62",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-open-dollar",
+    "report_link": "https://code4rena.com/reports/2023-10-opendollar",
+    "repo_link": "https://github.com/code-423n4/2023-10-opendollar",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-the-wildcat-protocol",
+    "report_link": "https://code4rena.com/reports/2023-10-wildcat",
+    "repo_link": "https://github.com/code-423n4/2023-10-wildcat",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-brahma",
+    "report_link": "https://code4rena.com/reports/2023-10-brahma",
+    "repo_link": "https://github.com/code-423n4/2023-10-brahma",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-ens",
+    "report_link": "https://code4rena.com/reports/2023-10-ens",
+    "repo_link": "https://github.com/code-423n4/2023-10-ens",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-canto-liquidity-mining-protocol",
+    "report_link": "https://code4rena.com/reports/2023-10-canto",
+    "repo_link": "https://github.com/code-423n4/2023-10-canto",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-10-zksync-era",
+    "report_link": "https://code4rena.com/reports/2023-10-zksync",
+    "repo_link": "https://github.com/code-423n4/2023-10-zksync",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-venus-prime",
+    "report_link": "https://code4rena.com/reports/2023-09-venus",
+    "repo_link": "https://github.com/code-423n4/2023-09-venus",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-tangible-caviar-mitigation-review",
+    "report_link": null,
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-reserve-protocol-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-07-reserve-findings/issues/23",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-maia-dao-ulysses",
+    "report_link": "https://code4rena.com/reports/2023-09-maia",
+    "repo_link": "https://github.com/code-423n4/2023-09-maia",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-asymmetry-finance-afeth-invitational",
+    "report_link": "https://code4rena.com/reports/2023-09-asymmetry",
+    "repo_link": "https://gist.github.com/romeroadrian/a2045e828aa87418a66e9ab47d811292",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-centrifuge",
+    "report_link": "https://code4rena.com/reports/2023-09-centrifuge",
+    "repo_link": "https://github.com/code-423n4/2023-09-centrifuge",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-good-entry-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-08-goodentry-findings/issues/373",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-delegate",
+    "report_link": "https://code4rena.com/reports/2023-09-delegate",
+    "repo_link": "https://github.com/code-423n4/2023-09-delegate",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-09-ondo-finance",
+    "report_link": "https://code4rena.com/reports/2023-09-ondo",
+    "repo_link": "https://github.com/code-423n4/2023-09-ondo",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-livepeer-onchain-treasury-upgrade",
+    "report_link": "https://code4rena.com/reports/2023-08-livepeer",
+    "repo_link": "https://github.com/code-423n4/2023-08-livepeer",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-chainlink-staking-v02",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-08-chainlink",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-dopex",
+    "report_link": "https://code4rena.com/reports/2023-08-dopex",
+    "repo_link": "https://github.com/code-423n4/2023-08-dopex",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-shell-protocol",
+    "report_link": "https://code4rena.com/reports/2023-08-shell",
+    "repo_link": "https://github.com/code-423n4/2023-08-shell",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-pooltogether-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-07-pooltogether-findings/issues/443",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-reserve-protocol-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-06-reserve-findings/issues/4",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-verwa",
+    "report_link": "https://code4rena.com/reports/2023-08-verwa",
+    "repo_link": "https://github.com/code-423n4/2023-08-verwa",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-certora-gmx-formal-verification",
+    "report_link": "https://code4rena.com/reports/2023-08-gmx-fv",
+    "repo_link": "https://github.com/code-423n4/2023-08-gmx-fv",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-arbitrum-security-council-election-system",
+    "report_link": "https://code4rena.com/reports/2023-08-arbitrum",
+    "repo_link": "https://github.com/code-423n4/2023-08-arbitrum",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-pooltogether-v5-part-deux",
+    "report_link": "https://code4rena.com/reports/2023-08-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2023-08-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-tangible-caviar",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-08-tangible",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-08-good-entry",
+    "report_link": "https://code4rena.com/reports/2023-08-goodentry",
+    "repo_link": "https://github.com/code-423n4/2023-08-goodentry",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-reserve-protocol-invitational",
+    "report_link": "https://code4rena.com/reports/2023-07-reserve",
+    "repo_link": "https://gist.github.com/0xA5DF/ac08fe4cae43a08b289e3bd77c238d7b",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-moonwell",
+    "report_link": "https://code4rena.com/reports/2023-07-moonwell",
+    "repo_link": "https://github.com/code-423n4/2023-07-moonwell",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-amphora-protocol",
+    "report_link": "https://code4rena.com/reports/2023-07-amphora",
+    "repo_link": "https://github.com/code-423n4/2023-07-amphora",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-lens-protocol-v2",
+    "report_link": "https://code4rena.com/reports/2023-07-lens",
+    "repo_link": "https://github.com/code-423n4/2023-07-lens",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-axelar-network",
+    "report_link": "https://code4rena.com/reports/2023-07-axelar",
+    "repo_link": "https://github.com/code-423n4/2023-07-axelar",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-pooltogether",
+    "report_link": "https://code4rena.com/reports/2023-07-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2023-07-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-tapioca-dao",
+    "report_link": "https://code4rena.com/reports/2023-07-tapioca",
+    "repo_link": "https://github.com/code-423n4/2023-07-tapioca",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-chainlink-cross-chain-contract-administration-multi-signature-contract-timelock-and-call-proxies",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-07-chainlink",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-basin",
+    "report_link": "https://code4rena.com/reports/2023-07-basin",
+    "repo_link": "https://github.com/code-423n4/2023-07-basin",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-07-nouns-dao",
+    "report_link": "https://code4rena.com/reports/2023-07-nounsdao",
+    "repo_link": "https://github.com/code-423n4/2023-07-nounsdao",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-06-lukso",
+    "report_link": "https://code4rena.com/reports/2023-06-lukso",
+    "repo_link": "https://github.com/code-423n4/2023-06-lukso",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-06-angle-protocol-invitational",
+    "report_link": "https://code4rena.comhttps://github.com/code-423n4/2023-11-panoptic/blob/main/4naly3er-report.md",
+    "repo_link": null,
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-06-lybra-finance",
+    "report_link": "https://code4rena.com/reports/2023-06-lybra",
+    "repo_link": "https://github.com/code-423n4/2023-06-lybra",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-04-eigenlayer-contest",
+    "report_link": "https://code4rena.com/reports/2023-04-eigenlayer",
+    "repo_link": "https://github.com/code-423n4/2023-04-eigenlayer",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-04-rubicon-v2",
+    "report_link": "https://code4rena.com/reports/2023-04-rubicon",
+    "repo_link": "https://github.com/code-423n4/2023-04-rubicon",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-03-canto-identity-subprotocols",
+    "report_link": "https://code4rena.com/reports/2023-03-canto-identity",
+    "repo_link": "https://github.com/code-423n4/2023-03-canto-identity",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-03-kuma-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-03-kuma-mitigation-contest",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-03-wenwin",
+    "report_link": "https://code4rena.com/reports/2023-03-wenwin",
+    "repo_link": "https://github.com/code-423n4/2023-03-wenwin",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-02-kuma-protocol-versus-contest",
+    "report_link": "https://code4rena.com/reports/2023-02-kuma",
+    "repo_link": "https://github.com/code-423n4/2023-02-kuma",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-02-malt-protocol-versus-contest",
+    "report_link": "https://code4rena.com/reports/2023-02-malt",
+    "repo_link": "https://github.com/code-423n4/2023-02-malt",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-02-reserve-versus-mitigation-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-02-reserve-mitigation-contest",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-02-gogopool-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2023-02-gogopool-mitigation-contest",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-popcorn-contest",
+    "report_link": "https://code4rena.com/reports/2023-01-popcorn",
+    "repo_link": "https://github.com/code-423n4/2023-01-popcorn",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-canto-identity-protocol",
+    "report_link": "https://code4rena.com/reports/2023-01-canto-identity",
+    "repo_link": "https://github.com/code-423n4/2023-01-canto-identity",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-tessera-versus-mitigation-review",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2022-12-tessera-findings/issues/6",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-numoen-contest",
+    "report_link": "https://code4rena.com/reports/2023-01-numoen",
+    "repo_link": "https://github.com/code-423n4/2023-01-numoen",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-drips-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2023-01-drips",
+    "repo_link": "https://github.com/code-423n4/2023-01-drips",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-rabbithole-quest-protocol",
+    "report_link": "https://code4rena.com/reports/2023-01-rabbithole",
+    "repo_link": "https://github.com/code-423n4/2023-01-rabbithole",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-timeswap-contest",
+    "report_link": "https://code4rena.com/reports/2023-01-timeswap",
+    "repo_link": "https://github.com/code-423n4/2023-01-timeswap",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-blockswap-formal-verification-contest-with-certora",
+    "report_link": "https://code4rena.com/reports/2023-01-blockswap-fv",
+    "repo_link": "https://github.com/code-423n4/2023-01-blockswap-fv",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-opensea-seaport-12-contest",
+    "report_link": "https://code4rena.com/reports/2023-01-opensea",
+    "repo_link": "https://github.com/code-423n4/2023-01-opensea",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-ondo-finance-contest",
+    "report_link": "https://code4rena.com/reports/2023-01-ondo",
+    "repo_link": "https://github.com/code-423n4/2023-01-ondo",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-reserve-contest",
+    "report_link": "https://code4rena.com/reports/2023-01-reserve",
+    "repo_link": "https://github.com/code-423n4/2023-01-reserve",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-astaria",
+    "report_link": "https://code4rena.com/reports/2023-01-astaria",
+    "repo_link": "https://github.com/code-423n4/2023-01-astaria",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2023-01-biconomy-smart-contract-wallet-contest",
+    "report_link": "https://code4rena.com/reports/2023-01-biconomy",
+    "repo_link": "https://github.com/code-423n4/2023-01-biconomy",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-forgotten-runiverse",
+    "report_link": "https://code4rena.com/reports/2022-12-forgotten-runiverse",
+    "repo_link": "https://github.com/code-423n4/2022-12-forgotten-runiverse",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-tessera-versus-contest",
+    "report_link": "https://code4rena.com/reports/2022-12-tessera",
+    "repo_link": "https://github.com/code-423n4/2022-12-tessera",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-papr-contest",
+    "report_link": "https://code4rena.com/reports/2022-12-backed",
+    "repo_link": "https://github.com/code-423n4/2022-12-backed",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-gogopool",
+    "report_link": "https://code4rena.com/reports/2022-12-gogopool",
+    "repo_link": "https://github.com/code-423n4/2022-12-gogopool",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-forgeries-contest",
+    "report_link": "https://code4rena.com/reports/2022-12-forgeries",
+    "repo_link": "https://github.com/code-423n4/2022-12-forgeries",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-caviar-contest",
+    "report_link": "https://code4rena.com/reports/2022-12-caviar",
+    "repo_link": "https://github.com/code-423n4/2022-12-caviar",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-tigris-trade-contest",
+    "report_link": "https://code4rena.com/reports/2022-12-tigris",
+    "repo_link": "https://github.com/code-423n4/2022-12-tigris",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-prepo-contest",
+    "report_link": "https://code4rena.com/reports/2022-12-prepo",
+    "repo_link": "https://github.com/code-423n4/2022-12-prepo",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-escher-contest",
+    "report_link": "https://code4rena.com/reports/2022-12-escher",
+    "repo_link": "https://github.com/code-423n4/2022-12-escher",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-pooltogether-contest",
+    "report_link": "https://code4rena.com/reports/2022-12-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2022-12-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-12-maverick",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2022-12-Stealth-Project",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-paraspace",
+    "report_link": "https://code4rena.com/reports/2022-11-paraspace",
+    "repo_link": "https://github.com/code-423n4/2022-11-paraspace",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-canto",
+    "report_link": "https://code4rena.com/reports/2022-11-canto",
+    "repo_link": "https://github.com/code-423n4/2022-11-canto",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-ens-versus-contest",
+    "report_link": "https://code4rena.com/reports/2022-11-ens",
+    "repo_link": "https://github.com/code-423n4/2022-11-ens",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-redacted-cartel-contest",
+    "report_link": "https://code4rena.com/reports/2022-11-redactedcartel",
+    "repo_link": "https://github.com/code-423n4/2022-11-redactedcartel",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-lsd-network-stakehouse-contest",
+    "report_link": "https://code4rena.com/reports/2022-11-stakehouse",
+    "repo_link": "https://github.com/code-423n4/2022-11-stakehouse",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-blur-exchange-contest",
+    "report_link": "https://code4rena.com/reports/2022-11-non-fungible",
+    "repo_link": "https://github.com/code-423n4/2022-11-non-fungible",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-looksrare-aggregator-contest",
+    "report_link": "https://code4rena.com/reports/2022-11-looksrare",
+    "repo_link": "https://github.com/code-423n4/2022-11-looksrare",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-size-contest",
+    "report_link": "https://code4rena.com/reports/2022-11-size",
+    "repo_link": "https://github.com/code-423n4/2022-11-size",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-debt-dao-contest",
+    "report_link": "https://code4rena.com/reports/2022-11-debtdao",
+    "repo_link": "https://github.com/code-423n4/2022-11-debtdao",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-11-chainlink-staking-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2022-11-chainlink",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-zksync-v2-contest",
+    "report_link": "https://code4rena.com/reports/2022-10-zksync",
+    "repo_link": "https://github.com/code-423n4/2022-10-zksync",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-paladin-warden-pledges-contest",
+    "report_link": "https://code4rena.com/reports/2022-10-paladin",
+    "repo_link": "https://github.com/code-423n4/2022-10-paladin",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-inverse-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-10-inverse",
+    "repo_link": "https://github.com/code-423n4/2022-10-inverse",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-holograph-contest",
+    "report_link": "https://code4rena.com/reports/2022-10-holograph",
+    "repo_link": "https://github.com/code-423n4/2022-10-holograph",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-3xcalibur",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2022-10-3xcalibur",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-juicebox-contest",
+    "report_link": "https://code4rena.com/reports/2022-10-juicebox",
+    "repo_link": "https://github.com/code-423n4/2022-10-juicebox",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-trader-joe-v2-contest",
+    "report_link": "https://code4rena.com/reports/2022-10-traderjoe",
+    "repo_link": "https://github.com/code-423n4/2022-10-traderjoe",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-the-graph-l2-bridge-contest",
+    "report_link": "https://code4rena.com/reports/2022-10-thegraph",
+    "repo_link": "https://github.com/code-423n4/2022-10-thegraph",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-10-blur-exchange-contest",
+    "report_link": "https://code4rena.com/reports/2022-10-blur",
+    "repo_link": "https://github.com/code-423n4/2022-10-blur",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-quickswap-and-stellaswap",
+    "report_link": "https://code4rena.com/reports/2022-09-quickswap",
+    "repo_link": "https://github.com/code-423n4/2022-09-quickswap",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-frax-ether-liquid-staking-contest",
+    "report_link": "https://code4rena.com/reports/2022-09-frax",
+    "repo_link": "https://github.com/code-423n4/2022-09-frax",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-vtvl-contest",
+    "report_link": "https://code4rena.com/reports/2022-09-vtvl",
+    "repo_link": "https://github.com/code-423n4/2022-09-vtvl",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-art-gobblers-contest",
+    "report_link": "https://code4rena.com/reports/2022-09-artgobblers",
+    "repo_link": "https://github.com/code-423n4/2022-09-artgobblers",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-y2k-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-09-y2k-finance",
+    "repo_link": "https://github.com/code-423n4/2022-09-y2k-finance",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-partydao-contest",
+    "report_link": "https://code4rena.com/reports/2022-09-party",
+    "repo_link": "https://github.com/code-423n4/2022-09-party",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-fei-and-tribe-redemption-contest",
+    "report_link": "https://code4rena.com/reports/2022-09-tribe",
+    "repo_link": "https://github.com/code-423n4/2022-09-tribe",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-canto-dex-oracle",
+    "report_link": "https://code4rena.com/reports/2022-09-canto",
+    "repo_link": "https://github.com/code-423n4/2022-09-canto",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-09-nouns-builder-contest",
+    "report_link": "https://code4rena.com/reports/2022-09-nouns-builder",
+    "repo_link": "https://github.com/code-423n4/2022-09-nouns-builder",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-08-olympus-dao-contest",
+    "report_link": "https://code4rena.com/reports/2022-08-olympus",
+    "repo_link": "https://github.com/code-423n4/2022-08-olympus",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-08-nouns-dao-contest",
+    "report_link": "https://code4rena.com/reports/2022-08-nounsdao",
+    "repo_link": "https://github.com/code-423n4/2022-08-nounsdao",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-08-fiat-dao-vefdt-contest",
+    "report_link": "https://code4rena.com/reports/2022-08-fiatdao",
+    "repo_link": "https://github.com/code-423n4/2022-08-fiatdao",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-08-fraxlend-frax-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-08-frax",
+    "repo_link": "https://github.com/code-423n4/2022-08-frax",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-08-foundation-drop-contest",
+    "report_link": "https://code4rena.com/reports/2022-08-foundation",
+    "repo_link": "https://github.com/code-423n4/2022-08-foundation",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-08-mimo-august-2022-contest",
+    "report_link": "https://code4rena.com/reports/2022-08-mimo",
+    "repo_link": "https://github.com/code-423n4/2022-08-mimo",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-08-rigor-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2022-08-rigor",
+    "repo_link": "https://github.com/code-423n4/2022-08-rigor",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-07-axelar-network-v2-contest",
+    "report_link": "https://code4rena.com/reports/2022-07-axelar",
+    "repo_link": "https://github.com/code-423n4/2022-07-axelar",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-07-golom",
+    "report_link": "https://code4rena.com/reports/2022-07-golom",
+    "repo_link": "https://github.com/code-423n4/2022-07-golom",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-07-yield-witch-v2-contest",
+    "report_link": "https://code4rena.com/reports/2022-07-yield",
+    "repo_link": "https://github.com/code-423n4/2022-07-yield",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-07-swivel-v3-contest",
+    "report_link": "https://code4rena.com/reports/2022-07-swivel",
+    "repo_link": "https://github.com/code-423n4/2022-07-swivel",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-07-ens-contest",
+    "report_link": "https://code4rena.com/reports/2022-07-ens",
+    "repo_link": "https://github.com/code-423n4/2022-07-ens",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-07-fractional-v2-contest",
+    "report_link": "https://code4rena.com/reports/2022-07-fractional",
+    "repo_link": "https://github.com/code-423n4/2022-07-fractional",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-07-juicebox-v2-contest",
+    "report_link": "https://code4rena.com/reports/2022-07-juicebox",
+    "repo_link": "https://github.com/code-423n4/2022-07-juicebox",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-putty-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-putty",
+    "repo_link": "https://github.com/code-423n4/2022-06-putty",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-canto-v2-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-canto-v2",
+    "repo_link": "https://github.com/code-423n4/2022-06-canto-v2",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-nibbl-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-nibbl",
+    "repo_link": "https://github.com/code-423n4/2022-06-nibbl",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-yieldy-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-yieldy",
+    "repo_link": "https://github.com/code-423n4/2022-06-yieldy",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-illuminate-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-illuminate",
+    "repo_link": "https://github.com/code-423n4/2022-06-illuminate",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-badger-vested-aura-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-badger",
+    "repo_link": "https://github.com/code-423n4/2022-06-badger",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-nested-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-nested",
+    "repo_link": "https://github.com/code-423n4/2022-06-nested",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-infinity-nft-marketplace-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-infinity",
+    "repo_link": "https://github.com/code-423n4/2022-06-infinity",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-canto-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-canto",
+    "repo_link": "https://github.com/code-423n4/2022-06-canto",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-connext-amarok-contest",
+    "report_link": "https://code4rena.com/reports/2022-06-connext",
+    "repo_link": "https://github.com/code-423n4/2022-06-connext",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-06-notional-x-index-coop",
+    "report_link": "https://code4rena.com/reports/2022-06-notional-coop",
+    "repo_link": "https://github.com/code-423n4/2022-06-notional-coop",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-backd-tokenomics-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-backd",
+    "repo_link": "https://github.com/code-423n4/2022-05-backd",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-vetoken-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-vetoken",
+    "repo_link": "https://github.com/code-423n4/2022-05-vetoken",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-velodrome-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-velodrome",
+    "repo_link": "https://github.com/code-423n4/2022-05-velodrome",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-rubicon-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-rubicon",
+    "repo_link": "https://github.com/code-423n4/2022-05-rubicon",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-opensea-seaport-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-opensea-seaport",
+    "repo_link": "https://github.com/code-423n4/2022-05-opensea-seaport",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-sturdy-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-sturdy",
+    "repo_link": "https://github.com/code-423n4/2022-05-sturdy",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-aura-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-aura",
+    "repo_link": "https://github.com/code-423n4/2022-05-aura",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-cally-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-cally",
+    "repo_link": "https://github.com/code-423n4/2022-05-cally",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-enso-finance",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2022-05-enso",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-alchemix-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-alchemix",
+    "repo_link": "https://github.com/code-423n4/2022-05-alchemix",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-factorydao-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-factorydao",
+    "repo_link": "https://github.com/code-423n4/2022-05-factorydao",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-cudos-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-cudos",
+    "repo_link": "https://github.com/code-423n4/2022-05-cudos",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-forgotten-runes-warrior-guild-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-runes",
+    "repo_link": "https://github.com/code-423n4/2022-05-runes",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-05-bunkerfinance-contest",
+    "report_link": "https://code4rena.com/reports/2022-05-bunker",
+    "repo_link": "https://github.com/code-423n4/2022-05-bunker",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-pooltogether-aave-v3-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2022-04-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-mimo-defi-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-mimo",
+    "repo_link": "https://github.com/code-423n4/2022-04-mimo",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-abranft-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-abranft",
+    "repo_link": "https://github.com/code-423n4/2022-04-abranft",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-xtribe-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-xtribe",
+    "repo_link": "https://github.com/code-423n4/2022-04-xtribe",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-backd-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-backd",
+    "repo_link": "https://github.com/code-423n4/2022-04-backd",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-phuture-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-phuture",
+    "repo_link": "https://github.com/code-423n4/2022-04-phuture",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-badger-citadel-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-badger-citadel",
+    "repo_link": "https://github.com/code-423n4/2022-04-badger-citadel",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-axelar-network-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-axelar",
+    "repo_link": "https://github.com/code-423n4/2022-04-axelar",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-jpegd-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-jpegd",
+    "repo_link": "https://github.com/code-423n4/2022-04-jpegd",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-duality-focus-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-dualityfocus",
+    "repo_link": "https://github.com/code-423n4/2022-04-dualityfocus",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-04-backed-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2022-04-backed",
+    "repo_link": "https://github.com/code-423n4/2022-04-backed",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-volt-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-volt",
+    "repo_link": "https://github.com/code-423n4/2022-03-volt",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-joyn-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-joyn",
+    "repo_link": "https://github.com/code-423n4/2022-03-joyn",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-paladin-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-paladin",
+    "repo_link": "https://github.com/code-423n4/2022-03-paladin",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-sublime-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-sublime",
+    "repo_link": "https://github.com/code-423n4/2022-03-sublime",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-lifi-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-lifinance",
+    "repo_link": "https://github.com/code-423n4/2022-03-lifinance",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-prepo-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-prepo",
+    "repo_link": "https://github.com/code-423n4/2022-03-prepo",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-maple-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-maple",
+    "repo_link": "https://github.com/code-423n4/2022-03-maple",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-rolla-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-rolla",
+    "repo_link": "https://github.com/code-423n4/2022-03-rolla",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-biconomy-hyphen-20-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-biconomy",
+    "repo_link": "https://github.com/code-423n4/2022-03-biconomy",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-03-timeswap-contest",
+    "report_link": "https://code4rena.com/reports/2022-03-timeswap",
+    "repo_link": "https://github.com/code-423n4/2022-03-timeswap",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-anchor-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-anchor",
+    "repo_link": "https://github.com/code-423n4/2022-02-anchor",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-jpyc-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-jpyc",
+    "repo_link": "https://github.com/code-423n4/2022-02-jpyc",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-foundation-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-foundation",
+    "repo_link": "https://github.com/code-423n4/2022-02-foundation",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-pooltogether-twab-delegator-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2022-02-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-skale-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-skale",
+    "repo_link": "https://github.com/code-423n4/2022-02-skale",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-hubble-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-hubble",
+    "repo_link": "https://github.com/code-423n4/2022-02-hubble",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-tribe-turbo-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-tribe-turbo",
+    "repo_link": "https://github.com/code-423n4/2022-02-tribe-turbo",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-ooki-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2022-02-ooki",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-redacted-cartel-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-redacted-cartel",
+    "repo_link": "https://github.com/code-423n4/2022-02-redacted-cartel",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-nested-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-nested",
+    "repo_link": "https://github.com/code-423n4/2022-02-nested",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-aave-lens-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-aave-lens",
+    "repo_link": "https://github.com/code-423n4/2022-02-aave-lens",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-badger-citadel-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-badger-citadel",
+    "repo_link": "https://github.com/code-423n4/2022-02-badger-citadel",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-02-concur-finance-contest",
+    "report_link": "https://code4rena.com/reports/2022-02-concur",
+    "repo_link": "https://github.com/code-423n4/2022-02-concur",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-yield-convex-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-yield",
+    "repo_link": "https://github.com/code-423n4/2022-01-yield",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-openleverage-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-openleverage",
+    "repo_link": "https://github.com/code-423n4/2022-01-openleverage",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-notional-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-notional",
+    "repo_link": "https://github.com/code-423n4/2022-01-notional",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-behodler-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-behodler",
+    "repo_link": "https://github.com/code-423n4/2022-01-behodler",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-trader-joe-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-trader-joe",
+    "repo_link": "https://github.com/code-423n4/2022-01-trader-joe",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-elasticswap-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-elasticswap",
+    "repo_link": "https://github.com/code-423n4/2022-01-elasticswap",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-sherlock-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-sherlock",
+    "repo_link": "https://github.com/code-423n4/2022-01-sherlock",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-livepeer-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-livepeer",
+    "repo_link": "https://github.com/code-423n4/2022-01-livepeer",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-insuredao-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-insure",
+    "repo_link": "https://github.com/code-423n4/2022-01-insure",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-sandclock-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-sandclock",
+    "repo_link": "https://github.com/code-423n4/2022-01-sandclock",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-timeswap-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-timeswap",
+    "repo_link": "https://github.com/code-423n4/2022-01-timeswap",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2022-01-xdefi-contest",
+    "report_link": "https://code4rena.com/reports/2022-01-xdefi",
+    "repo_link": "https://github.com/code-423n4/2022-01-xdefi",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-vader-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-vader",
+    "repo_link": "https://github.com/code-423n4/2021-12-vader",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-nftx-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-nftx",
+    "repo_link": "https://github.com/code-423n4/2021-12-nftx",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-yeti-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-yetifinance",
+    "repo_link": "https://github.com/code-423n4/2021-12-yetifinance",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-amun-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-amun",
+    "repo_link": "https://github.com/code-423n4/2021-12-amun",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-perennial-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-perennial",
+    "repo_link": "https://github.com/code-423n4/2021-12-perennial",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-sublime-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-sublime",
+    "repo_link": "https://github.com/code-423n4/2021-12-sublime",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-pooltogether-twabrewards-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2021-12-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-kuiper-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2021-12-defiProtocol",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-maple-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-maple",
+    "repo_link": "https://github.com/code-423n4/2021-12-maple",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-12-mellow-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-12-mellow",
+    "repo_link": "https://github.com/code-423n4/2021-12-mellow",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-streaming-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-streaming",
+    "repo_link": "https://github.com/code-423n4/2021-11-streaming",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-fei-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-fei",
+    "repo_link": "https://github.com/code-423n4/2021-11-fei",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-malt-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-malt",
+    "repo_link": "https://github.com/code-423n4/2021-11-malt",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-unlock-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-unlock",
+    "repo_link": "https://github.com/code-423n4/2021-11-unlock",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-yaxis-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-yaxis",
+    "repo_link": "https://github.com/code-423n4/2021-11-yaxis",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-overlay-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-overlay",
+    "repo_link": "https://github.com/code-423n4/2021-11-overlay",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-badgerdao-zaps-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-badgerzaps",
+    "repo_link": "https://github.com/code-423n4/2021-11-badgerzaps",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-nested-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-nested",
+    "repo_link": "https://github.com/code-423n4/2021-11-nested",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-vader-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-vader",
+    "repo_link": "https://github.com/code-423n4/2021-11-vader",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-fairside-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-fairside",
+    "repo_link": "https://github.com/code-423n4/2021-11-fairside",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-11-boot-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-11-bootfinance",
+    "repo_link": "https://github.com/code-423n4/2021-11-bootfinance",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-slingshot-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-slingshot",
+    "repo_link": "https://github.com/code-423n4/2021-10-slingshot",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-badgerdao-ibbtc-wrapper-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-badgerdao",
+    "repo_link": "https://github.com/code-423n4/2021-10-badgerdao",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-mochi-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-mochi",
+    "repo_link": "https://github.com/code-423n4/2021-10-mochi",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-tally-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-tally",
+    "repo_link": "https://github.com/code-423n4/2021-10-tally",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-covalent-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-covalent",
+    "repo_link": "https://github.com/code-423n4/2021-10-covalent",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-ambire-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-ambire",
+    "repo_link": "https://github.com/code-423n4/2021-10-ambire",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-tempus-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-tempus",
+    "repo_link": "https://github.com/code-423n4/2021-10-tempus",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-union-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-union",
+    "repo_link": "https://github.com/code-423n4/2021-10-union",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-kuiper-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2021-10-defiProtocol",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-pooltogether-v4-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2021-10-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-10-tracer-contest",
+    "report_link": "https://code4rena.com/reports/2021-10-tracer",
+    "repo_link": "https://github.com/code-423n4/2021-10-tracer",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-pooltogether-v4-preview",
+    "report_link": "https://code4rena.com/reports/2021-10-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2021-10-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-swivel-contest",
+    "report_link": "https://code4rena.com/reports/2021-09-swivel",
+    "repo_link": "https://github.com/code-423n4/2021-09-swivel",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-sushi-trident-contest-phase-2",
+    "report_link": "https://code4rena.com/reports/2021-09-sushitrident-2",
+    "repo_link": "https://github.com/code-423n4/2021-09-sushitrident-2",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-wild-credit-contest",
+    "report_link": "https://code4rena.com/reports/2021-09-wildcredit",
+    "repo_link": "https://github.com/code-423n4/2021-09-wildcredit",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-sushi-trident-contest-phase-1",
+    "report_link": "https://code4rena.com/reports/2021-09-sushitrident",
+    "repo_link": "https://github.com/code-423n4/2021-09-sushitrident",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-kuiper-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2021-09-defiProtocol",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-yaxis-contest",
+    "report_link": "https://code4rena.com/reports/2021-09-yaxis",
+    "repo_link": "https://github.com/code-423n4/2021-09-yaxis",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-sushi-miso-contest",
+    "report_link": "https://code4rena.com/reports/2021-09-sushimiso",
+    "repo_link": "https://github.com/code-423n4/2021-09-sushimiso",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-09-bvecvx-by-badgerdao-contest",
+    "report_link": "https://code4rena.com/reports/2021-09-bvecvx",
+    "repo_link": "https://github.com/code-423n4/2021-09-bvecvx",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-08-gravity-bridge-contest",
+    "report_link": "https://code4rena.com/reports/2021-08-gravitybridge",
+    "repo_link": "https://github.com/code-423n4/2021-08-gravitybridge",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-08-notional-contest",
+    "report_link": "https://code4rena.com/reports/2021-08-notional",
+    "repo_link": "https://github.com/code-423n4/2021-08-notional",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-08-reality-cards-contest",
+    "report_link": "https://code4rena.com/reports/2021-08-realitycards",
+    "repo_link": "https://github.com/code-423n4/2021-08-realitycards",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-08-yield-micro-contest-1",
+    "report_link": "https://code4rena.com/reports/2021-08-yield",
+    "repo_link": "https://github.com/code-423n4/2021-08-yield",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-08-float-capital-contest",
+    "report_link": "https://code4rena.com/reports/2021-08-floatcapital",
+    "repo_link": "https://github.com/code-423n4/2021-08-floatcapital",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-07-pooltogether-micro-contest-1",
+    "report_link": "https://code4rena.com/reports/2021-07-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2021-07-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-07-sherlock-contest",
+    "report_link": "https://code4rena.com/reports/2021-07-sherlock",
+    "repo_link": "https://github.com/code-423n4/2021-07-sherlock",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-07-spartan-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-07-spartan",
+    "repo_link": "https://github.com/code-423n4/2021-07-spartan",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-07-connext-contest",
+    "report_link": "https://code4rena.com/reports/2021-07-connext",
+    "repo_link": "https://github.com/code-423n4/2021-07-connext",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-07-wild-credit-contest",
+    "report_link": "https://code4rena.com/reports/2021-07-wildcredit",
+    "repo_link": "https://github.com/code-423n4/2021-07-wildcredit",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-07-gro-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-06-gro",
+    "repo_link": "https://github.com/code-423n4/2021-06-gro",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-06-tracer-contest",
+    "report_link": "https://code4rena.com/reports/2021-06-tracer",
+    "repo_link": "https://github.com/code-423n4/2021-06-tracer",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-06-gro-protocol-preview",
+    "report_link": "https://code4rena.com/reports/2021-06-gro",
+    "repo_link": "https://github.com/code-423n4/2021-06-gro",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-06-pooltogether-contest",
+    "report_link": "https://code4rena.com/reports/2021-06-pooltogether",
+    "repo_link": "https://github.com/code-423n4/2021-06-pooltogether",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-06-reality-cards-contest",
+    "report_link": "https://code4rena.com/reports/2021-06-realitycards",
+    "repo_link": "https://github.com/code-423n4/2021-06-realitycards",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-05-yield-contest",
+    "report_link": "https://code4rena.com/reports/2021-05-yield",
+    "repo_link": "https://github.com/code-423n4/2021-05-yield",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-05-fairside-contest",
+    "report_link": "https://code4rena.com/reports/2021-05-fairside",
+    "repo_link": "https://github.com/code-423n4/2021-05-fairside",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-05-visor-contest",
+    "report_link": "https://code4rena.com/reports/2021-05-visorfinance",
+    "repo_link": "https://github.com/code-423n4/2021-05-visorfinance",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-05-88mph-contest",
+    "report_link": "https://code4rena.com/reports/2021-05-88mph",
+    "repo_link": "https://github.com/code-423n4/2021-05-88mph",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-05-nftx-contest",
+    "report_link": "https://code4rena.com/reports/2021-05-nftx",
+    "repo_link": "https://github.com/code-423n4/2021-05-nftx",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-04-larvalabs-meebits-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2021-04-redacted",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-04-based-loans-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/basedloans",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-04-vader-protocol-contest",
+    "report_link": "https://code4rena.com/reports/2021-04-vader",
+    "repo_link": "https://github.com/code-423n4/2021-04-vader",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-04-maple-finance-contest",
+    "report_link": "https://code4rena.com/reports/2021-04-maple",
+    "repo_link": "https://github.com/code-423n4/2021-04-maple",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-04-marginswap-contest",
+    "report_link": "https://code4rena.com/reports/2021-04-marginswap",
+    "repo_link": "https://github.com/code-423n4/2021-04-marginswap",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-02-elasticdao-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2021-03-elasticdao",
+    "repo_local_path": null
+  },
+  {
+    "audit_link": "https://code4rena.com/audits/2021-02-slingshot-finance-contest",
+    "report_link": null,
+    "repo_link": "https://github.com/code-423n4/2021-02-slingshot",
+    "repo_local_path": null
+  }
+]

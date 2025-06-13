@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from faiss_pipeline import faiss_search
+from app.faiss_pipeline import faiss_search
 from contextlib import asynccontextmanager
 
 # Define FastAPI app

@@ -1,4 +1,4 @@
-from slither import Slither
+from slither import slither
 import os
 import json
 import subprocess
@@ -23,7 +23,7 @@ def find_solidity_files(repo_path):
     return solidity_files
 
 def analyze_solidity_file(solidity_file, repo_name):
-    slither = Slither(solidity_file)
+    slither = slither(solidity_file)
     
     contract_name = os.path.basename(solidity_file).replace(".sol", "")
     contracts = slither.get_contract_from_name(contract_name)
@@ -118,3 +118,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# curl -o- -L https://yarnpkg.com/install.sh | bash
+# curl -L https://foundry.paradigm.xyz | bash
+# foundryup
+# source /home/usr/.bashrc

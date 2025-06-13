@@ -1,5 +1,6 @@
+./data/repositories/*
 ./repositories/*
 ./processed_repositories/*
 processed_repositories
 model
-./__pycache__/*
+.venv

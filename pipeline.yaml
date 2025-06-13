@@ -1,0 +1,46 @@
+# audits_info.json + download-> ./data/repositories
+
+# preprocess+processed_repositories->preprocessed_repositories ?
+
+# slither_main+slither analyzer+repositories->processed_repositories (file->functions info json), rm repositories
+
+# reports_links +parse_issues-> ./issues_reports/reports_links/repo_code repo_explain ?
+
+stages:
+  parse_audits:
+    cmd: python3 scripts/get_reports.py
+    outs: 
+    - data/audits_info.json # [{audit_link, report_link, None, None}]
+  parse_git_links:
+    cmd: python3 scripts/get_repositories.py
+    deps: 
+    - data/audits_info.json
+    outs: 
+    - data/audits_info.json # [{audit_link, report_link, git_link, None}]
+  clone_repositories:
+    cmd: python3 scripts/download_repositories.py
+    deps: 
+    - data/audits_info.json
+    outs: 
+    - data/repositories
+    - data/audits_info.json # [{audit_link, report_link, git_link, local_path}]
+  preprocess:
+    cmd: python3 scripts/preprocess_repositories.py
+    deps:
+    - data/repositories
+    outs: 
+    - data/processed_repositories # remove folders, ast via slither
+  slither_analyze:
+    cmd: python3 slither_main.py
+    deps:
+    - data/processed_repositories
+    outs:
+    - data/processed_repositories
+
+# Applications:
+# RAG with simple finetune codebert
+# finetune+processed_repositories->/kaggle/working/finetuned_model/
+# langchain_rag+faiss_pipeline+fastapiapp+model+processed_repositories->test rag 
+
+# Similar snippet search with GNN model embeddings
+# processed_repositories+Graphbugseach->GraphNN
