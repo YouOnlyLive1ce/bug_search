@@ -24,8 +24,12 @@ def find_solidity_files(repo_path):
 
 def analyze_solidity_file(solidity_file, repo_name):
     project_root = os.path.abspath(os.path.dirname(__file__))
-    remappings = f"@openzeppelin/={project_root}/node_modules/@openzeppelin/"
-    slither = Slither(solidity_file,solc_remaps=remappings)
+    # left part - from file, right part - library
+    remappings = (f"openzeppelin-contracts/={project_root}/node_modules/@openzeppelin/", 
+                  f"Solady/={project_root}/node_modules/solady/src/",
+                  f"@openzeppelin/={project_root}/node_modules/@openzeppelin/")
+    # print(remappings)
+    slither = Slither(solidity_file, solc_remaps=remappings)
     
     contract_name = os.path.basename(solidity_file).replace(".sol", "")
     contracts = slither.get_contract_from_name(contract_name=contract_name)
@@ -48,20 +52,40 @@ def analyze_solidity_file(solidity_file, repo_name):
 
             for call in function.high_level_calls:
                 if call:
-                    print(dir(call))
-                    output_content["High-Level Calls"].append((call[1].name, call[0].name))
+                    #Contract,HighLevelCall
+                    # print(dir(call[1]))
+                    # print(dir(call[0]))
+                    # contract
+                    # print('high',type(call[0].name))
+                    output_content["High-Level Calls"].append((call[0].name))
 
             for call in function.internal_calls:
                 if call:
-                    output_content["Internal Calls"].append(call.function.name) #not sure
+                    # print(dir(call))
+                    if hasattr(call,'function_name'):
+                        # print('int1',type(call.function_name))
+                        output_content["Internal Calls"].append(call.function_name)
+                    elif hasattr(call,'function'):
+                        # print('int2',type(call.function.name))
+                        output_content["Internal Calls"].append(call.function.name)
+                    else:
+                        print('internal',dir(call.function))
 
             for call in function.library_calls:
                 if call:
-                    output_content["Library Calls"].append(f"{call[1].name}.{call[0].name}")
-
+                    if hasattr(call,'name'):
+                        print('lib1',type(call.name))
+                        output_content["Library Calls"].append(call.name)
+                    elif hasattr(call,'function_name'):
+                        # print('lib2',type(call.function_name))
+                        output_content["Library Calls"].append(call.function_name.value)
+                    else:
+                        print('library',dir(call))
+                        
             for call in function.low_level_calls:
                 if call:
-                    output_content["Low-Level Calls"].append(f"{call[1]}.{call[0].name}")
+                    print('low',type(call[0].name))
+                    output_content["Low-Level Calls"].append(call[0].name)
 
             output_content['Code']=function.source_mapping.content
 
@@ -82,7 +106,10 @@ def main():
             #         subprocess.run(["pnpm", "install"], check=True)
             # else:
             subprocess.run(["npm","install"], check=True)
-        if os.path.isfile("foundry.toml"):
+            if not (os.path.isdir("node_modules/@openzeppelin") or os.path.isdir("node_modules/solady")):
+                print("Installing OpenZeppelin/Solady...")
+                subprocess.run(["npm", "install", "@openzeppelin/contracts", "solady"], check=True)
+        elif os.path.isfile("foundry.toml"):
             subprocess.run(["forge", "i"], check=True) 
     except Exception as e:
         print(e)

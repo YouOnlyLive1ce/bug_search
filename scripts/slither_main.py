@@ -29,7 +29,7 @@ for repo_name in repo_paths:
     print(f"Running scipt in {repo_path}")
 
     try:
-        subprocess.run(["python", script_name], check=True)
+        subprocess.run(["python", script_name], check=True,timeout=180)
         repository_path=os.path.join(repositories_path,repo_name)
         print(f"Delete original repository {repository_path}")
         # subprocess.run(["rm","-rf",repository_path], check=True)
