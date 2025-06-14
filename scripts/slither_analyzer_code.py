@@ -1,4 +1,4 @@
-from slither import slither
+from slither import Slither
 import os
 import json
 import subprocess
@@ -23,10 +23,12 @@ def find_solidity_files(repo_path):
     return solidity_files
 
 def analyze_solidity_file(solidity_file, repo_name):
-    slither = slither(solidity_file)
+    project_root = os.path.abspath(os.path.dirname(__file__))
+    remappings = f"@openzeppelin/={project_root}/node_modules/@openzeppelin/"
+    slither = Slither(solidity_file,solc_remaps=remappings)
     
     contract_name = os.path.basename(solidity_file).replace(".sol", "")
-    contracts = slither.get_contract_from_name(contract_name)
+    contracts = slither.get_contract_from_name(contract_name=contract_name)
     
     for contract in contracts:
         for function in contract.functions_declared:
@@ -46,11 +48,12 @@ def analyze_solidity_file(solidity_file, repo_name):
 
             for call in function.high_level_calls:
                 if call:
+                    print(dir(call))
                     output_content["High-Level Calls"].append((call[1].name, call[0].name))
 
             for call in function.internal_calls:
                 if call:
-                    output_content["Internal Calls"].append(call.name)
+                    output_content["Internal Calls"].append(call.function.name) #not sure
 
             for call in function.library_calls:
                 if call:
@@ -71,11 +74,20 @@ def main():
     # Dependencies
     try:
         if os.path.isfile("package.json"):
-            subprocess.run(["yarn","install"], check=True)
-        elif os.path.isfile("foundry.toml"):
+            # with open("package.json", "r") as f:
+            #     package_json = json.load(f)
+            # if "packageManager" in package_json:
+            #     print("pnpm required")
+            #     if "pnpm" in package_json["packageManager"]:
+            #         subprocess.run(["pnpm", "install"], check=True)
+            # else:
+            subprocess.run(["npm","install"], check=True)
+        if os.path.isfile("foundry.toml"):
             subprocess.run(["forge", "i"], check=True) 
-    except:
+    except Exception as e:
+        print(e)
         print("!Dependencies install error")
+        exit(0)
 
     # Reducing scope to not include dependecies
     solidity_file_paths=[]
@@ -103,6 +115,7 @@ def main():
     solidity_version = solidity_version.replace('=', '').strip() # Remove =
     solidity_version = solidity_version.replace('>', '').strip() # Remove >
     
+    print("solc-select")
     subprocess.run(["solc-select","install",solidity_version], check=True)
     subprocess.run(["solc-select","use",solidity_version], check=True)
 
@@ -110,9 +123,11 @@ def main():
     print(f"{len(solidity_file_paths)} files in the scope")
     slither_fail=0
     for solidity_file in solidity_file_paths:
+        print(solidity_file)
         try:
             analyze_solidity_file(solidity_file, repo_name)
-        except:
+        except Exception as e:
+            print(e)
             slither_fail+=1
     print(f"{len(solidity_file_paths)-slither_fail} analyzed successfully")
 

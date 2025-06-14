@@ -1,4 +1,4 @@
-./data/repositories/*
+data/repositories*
 ./repositories/*
 ./processed_repositories/*
 processed_repositories

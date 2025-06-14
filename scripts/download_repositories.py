@@ -7,7 +7,7 @@ base_dir = "./data/repositories"
 with open('./data/audits_info.json','r') as f:
     audits_info = orjson.loads(f.read())
 
-for audit in audits_info[:5]:
+for audit in audits_info[:10]:
     if not audit['repo_link']:
         continue
     link = audit['repo_link'].strip()

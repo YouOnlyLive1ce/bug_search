@@ -3,5 +3,4 @@ bs4
 requests
 orjson
 gitpython
-slither
-pygame
+slither-analyzer
