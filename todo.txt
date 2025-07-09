@@ -1,0 +1,7 @@
+# fix forge
+
+count errors
+
+robust to renaming embeddings. Siamease network/triplet loss
+
+Lora better since size(data to learn)<<lora matrix? hence finetune worse

@@ -6,7 +6,7 @@ import subprocess
 def save_analysis_output(repo_name, contract_name, function_name, output_content):
     repo_path = os.getcwd()
     base_path=repo_path[0:repo_path.rfind('/',0,repo_path.rfind('/'))]
-    output_dir = os.path.join(base_path, "processed_repositories", repo_name, 'src', contract_name)
+    output_dir = os.path.join(base_path, "processed_repositories", repo_name, contract_name)
 
     os.makedirs(output_dir, exist_ok=True)
 
@@ -19,7 +19,7 @@ def find_solidity_files(repo_path):
     for root, _, files in os.walk(repo_path):
         for file in files:
             if file.endswith(".sol"):
-                solidity_files.append(os.path.join(root, file))
+                solidity_files.append(os.path.join(root,file)) # .. needed since cd node_modules applied
     return solidity_files
 
 def analyze_solidity_file(solidity_file, repo_name):
@@ -27,9 +27,10 @@ def analyze_solidity_file(solidity_file, repo_name):
     # left part - from file, right part - library
     remappings = (f"openzeppelin-contracts/={project_root}/node_modules/@openzeppelin/", 
                   f"Solady/={project_root}/node_modules/solady/src/",
-                  f"@openzeppelin/={project_root}/node_modules/@openzeppelin/")
+                  f"@openzeppelin/={project_root}/node_modules/@openzeppelin/",
+                  f"src/={project_root}/src/")
     # print(remappings)
-    slither = Slither(solidity_file, solc_remaps=remappings)
+    slither = Slither(solidity_file,solc_remaps=remappings)
     
     contract_name = os.path.basename(solidity_file).replace(".sol", "")
     contracts = slither.get_contract_from_name(contract_name=contract_name)
@@ -84,12 +85,41 @@ def analyze_solidity_file(solidity_file, repo_name):
                         
             for call in function.low_level_calls:
                 if call:
-                    print('low',type(call[0].name))
-                    output_content["Low-Level Calls"].append(call[0].name)
+                    # print('low',type(call[0].name))
+                    print(dir(call))
+                    output_content["Low-Level Calls"].append(call.function_name.value)
 
             output_content['Code']=function.source_mapping.content
 
             save_analysis_output(repo_name, contract_name, function.name, output_content)
+
+def choose_solidity(solidity_file_path):
+    with open(solidity_file_path) as f:
+        code=f.read()
+    index1=code.find('pragma solidity ')
+    index2=code.find('\n',index1)
+    solidity_version = code[index1 + 16:index2].strip()
+    solidity_version = solidity_version.split('//')[0].strip()   # Remove comments
+    solidity_version = solidity_version.split('<')[0].strip()
+    if solidity_version.find("^")!=-1:
+        solidity_version = solidity_version.replace('^', '').strip() # Remove ^
+        # 0.6.x^->0.6.12
+        # 0.7.x^->0.7.6
+        # 0.8.x^->0.8.26
+        if solidity_version.find("0.6")!=-1:
+            solidity_version="0.6.12"
+        elif solidity_version.find("0.7")!=-1:
+            solidity_version="0.7.6"
+        else:
+            solidity_version="0.8.26"
+    solidity_version = solidity_version.replace(';', '').strip() # Remove ;
+    solidity_version = solidity_version.replace('=', '').strip() # Remove =
+    solidity_version = solidity_version.replace('>', '').strip() # Remove >
+    
+    # print("solc-select")
+    # Already installed all versions
+    subprocess.run(["solc-select","install",solidity_version], check=True)
+    subprocess.run(["solc-select","use",solidity_version], check=True)
 
 def main():
     repo_abs=os.getcwd()
@@ -107,8 +137,7 @@ def main():
             # else:
             subprocess.run(["npm","install"], check=True)
             if not (os.path.isdir("node_modules/@openzeppelin") or os.path.isdir("node_modules/solady")):
-                print("Installing OpenZeppelin/Solady...")
-                subprocess.run(["npm", "install", "@openzeppelin/contracts", "solady"], check=True)
+                subprocess.run(["npm", "install", "@openzeppelin/contracts", "@openzeppelin/contracts-upgradeable", "solady"], check=True)
         elif os.path.isfile("foundry.toml"):
             subprocess.run(["forge", "i"], check=True) 
     except Exception as e:
@@ -118,41 +147,29 @@ def main():
 
     # Reducing scope to not include dependecies
     solidity_file_paths=[]
-    if os.path.isfile("scope.txt"):
-        with open("scope.txt") as file:
-            solidity_file_paths = [line.rstrip() for line in file]
-    elif os.path.isdir('src'):
+    # if os.path.isfile("scope.txt"):
+    #     with open("scope.txt") as file:
+    #         solidity_file_paths = [line.rstrip() for line in file]
+    if os.path.isdir('./src'):
         solidity_file_paths = find_solidity_files('./src')
-    elif os.path.isdir('contracts'):
+    elif os.path.isdir('./contracts'):
         solidity_file_paths = find_solidity_files('./contracts')
     if len(solidity_file_paths)==0:
         print("!Failed to find solidity files")
         return
 
-    # Installing suitable solc compiler
-    with open(solidity_file_paths[0]) as f:
-        code=f.read()
-    index1=code.find('pragma solidity ')
-    index2=code.find('\n',index1)
-    solidity_version = code[index1 + 16:index2].strip()
-    solidity_version = solidity_version.split('//')[0].strip()   # Remove comments
-    solidity_version = solidity_version.split('<')[0].strip()
-    solidity_version = solidity_version.replace('^', '').strip() # Remove ^
-    solidity_version = solidity_version.replace(';', '').strip() # Remove ;
-    solidity_version = solidity_version.replace('=', '').strip() # Remove =
-    solidity_version = solidity_version.replace('>', '').strip() # Remove >
-    
-    print("solc-select")
-    subprocess.run(["solc-select","install",solidity_version], check=True)
-    subprocess.run(["solc-select","use",solidity_version], check=True)
+    # To take accaunt of dependecies, needed to run from node_modules
+    # os.chdir('node_modules')
+    print(os.getcwd())
 
     # Analyze each solidity file
     print(f"{len(solidity_file_paths)} files in the scope")
     slither_fail=0
-    for solidity_file in solidity_file_paths:
-        print(solidity_file)
+    for solidity_file_path in solidity_file_paths:
+        # Use required solc compiler
+        choose_solidity(solidity_file_path)
         try:
-            analyze_solidity_file(solidity_file, repo_name)
+            analyze_solidity_file(solidity_file_path, repo_name)
         except Exception as e:
             print(e)
             slither_fail+=1
