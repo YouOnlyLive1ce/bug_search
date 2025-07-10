@@ -4,3 +4,4 @@ requests
 orjson
 gitpython
 slither-analyzer
+huggingface_hub

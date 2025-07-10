@@ -1,6 +1,8 @@
-data/repositories/*
-./repositories/*
-./processed_repositories/*
-processed_repositories
+data/repositories
+data/processed_repositories
+data/reports
+data/audits_links.txt
+data/reports_links.txt
+data/audits_info_old.json
 model
 .venv

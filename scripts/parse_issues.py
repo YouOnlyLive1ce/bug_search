@@ -5,12 +5,13 @@ from bs4 import BeautifulSoup
 import time
 import re
 import os
+import json
 # from list of github/codearena pages, extract issues in folder with structure:
 # issues\
 #        link\
 #            High\
-#                H-01-code    <-distinguish code
-#                H-01-explain <-and human text
+#                H-01-code    <-buggy code
+#                H-01-explain <-human explanation
 #                H-02-code
 #                H-03-explain
 #                ...
@@ -21,14 +22,28 @@ import os
 #                ...
 #            NC\
 #                ...
-#         \link
+#         link\
 # Embedded code snippets with context will be used in rag to find similar bugs
 
-driver = webdriver.Chrome()
-with open('./project/reports_links.txt') as f:
-    reports_links = f.readlines()
+# For linux
+options = webdriver.FirefoxOptions()
+serv = webdriver.FirefoxService( executable_path='/snap/bin/geckodriver' )
+driver = webdriver.Firefox(options=options,service=serv)
 
-for report_link in reports_links:
+with open('./data/audits_info.json', 'r') as file:
+    reports_links = json.load(file)
+new_reports_links=[]
+
+# add report_local_path
+for report_dict in reports_links:
+    report_link=report_dict['report_link']
+    print(f"parsing {report_link}")
+    if report_link==None:
+        continue
+    folder_path = f"./data/reports/{report_link[30:]}"
+    # if os.path.isdir(folder_path):
+    #     print(f"Already parsed {folder_path}")
+    #     continue
     driver.get(report_link)
     time.sleep(5)
     html = driver.page_source
@@ -50,7 +65,6 @@ for report_link in reports_links:
             
             # If next tag is new issue, save current
             if sibling.name == "h2":
-                folder_path = f"./issues_reports/reports_links/{report_link[30:-1]}"
                 os.makedirs(folder_path, exist_ok=True)
 
                 # Explain file contains human readable explanation
@@ -77,3 +91,9 @@ for report_link in reports_links:
     print(f"{len(h2_tags)} issues parsed from {report_link}")
     if len(h2_tags)==0:
         print(f"!page did not match template {report_link}")
+    else:
+        report_dict['report_local_path']="./"+folder_path[7:]
+        new_reports_links.append(report_dict)
+
+with open('./data/audits_info_updated.json', 'w') as file:
+    json.dump(new_reports_links, file, indent=2)

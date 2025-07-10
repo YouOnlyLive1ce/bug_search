@@ -37,4 +37,6 @@ for repo_name in repo_paths:
         fail_analyze+=1
     
     os.chdir(repositories_path)
-print(fail_analyze)
+
+print("ANALYSIS COMPLETE")
+print(f"{fail_analyze} repositories slither failed to analyze")

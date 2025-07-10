@@ -86,7 +86,7 @@ def analyze_solidity_file(solidity_file, repo_name):
             for call in function.low_level_calls:
                 if call:
                     # print('low',type(call[0].name))
-                    print(dir(call))
+                    # print(dir(call))
                     output_content["Low-Level Calls"].append(call.function_name.value)
 
             output_content['Code']=function.source_mapping.content
@@ -128,6 +128,7 @@ def main():
     # Dependencies
     try:
         if os.path.isfile("package.json"):
+            return
             # with open("package.json", "r") as f:
             #     package_json = json.load(f)
             # if "packageManager" in package_json:
@@ -136,10 +137,11 @@ def main():
             #         subprocess.run(["pnpm", "install"], check=True)
             # else:
             subprocess.run(["npm","install"], check=True)
-            if not (os.path.isdir("node_modules/@openzeppelin") or os.path.isdir("node_modules/solady")):
-                subprocess.run(["npm", "install", "@openzeppelin/contracts", "@openzeppelin/contracts-upgradeable", "solady"], check=True)
         elif os.path.isfile("foundry.toml"):
             subprocess.run(["forge", "i"], check=True) 
+        elif not (os.path.isdir("node_modules/@openzeppelin") or os.path.isdir("node_modules/solady")):
+            return
+            subprocess.run(["npm", "install", "@openzeppelin/contracts", "@openzeppelin/contracts-upgradeable", "solady"], check=True)
     except Exception as e:
         print(e)
         print("!Dependencies install error")
@@ -182,3 +184,11 @@ if __name__ == "__main__":
 # curl -L https://foundry.paradigm.xyz | bash
 # foundryup
 # source /home/usr/.bashrc
+
+# Solidity_code_Bugs_Graph_Rag
+
+# Here is a 100 repositories from https://code4rena.com/audits parsed as graph of functions with different types of relationships: Parent Contracts, High-Level Calls, Internal Calls, Library Calls, Low-Level Calls.
+
+# Dataset can be used for tasks like code clone detection (similar bugs search), code reconstruction with context pruning. Dataset is ready to be used in GNN.
+
+# You can see usage of dataset as RAG at https://github.com/YouOnlyLive1ce/bug_search

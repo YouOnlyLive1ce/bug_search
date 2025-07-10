@@ -1,7 +1,3 @@
-# slither_main+slither analyzer+processed_repositories->processed_repositories (file->functions info json)
-
-# reports_links +parse_issues-> ./issues_reports/reports_links/repo_code repo_explain ?
-
 stages:
   parse_audits:
     cmd: python3 scripts/get_reports.py
@@ -35,9 +31,9 @@ stages:
   parse_issues:
     cmd: python3 scripts/parse_issues.py
     deps:
-    - data/repositories
+    - data/audits_info.json
     outs:
-    - data/issues_reports
+    - data/reports
 
 # Application: RAG with finetune codebert + GNN relationship enriched embeddings
 # Finetune: Lora Codebert on DISL dataset -> path/to/model
